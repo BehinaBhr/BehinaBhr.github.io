@@ -1,18 +1,17 @@
+@use "../../styles/partials/typography-mixins" as *;
 @use "../../styles/partials/mixins" as *;
 @use "../../styles/partials/breakpoints" as *;
 @use "../../styles/partials/variables" as *;
 @use "../../styles/partials/colors" as *;
-@use "../../styles/partials/typography-mixins" as *;
 
 .header {
-  @include body-medium;
+  @include body-large;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: $mobile-padding;
   gap: $small-mobile-padding;
   @include tablet {
-    @include body-large;
     flex-direction: row;
     justify-content: space-between;
     padding: $tablet-padding;
@@ -22,8 +21,8 @@
     margin: 0 auto;
   }
   &__logo {
-    &-text {
-      color: $lips;
+    &-image {
+      width:13rem;
     }
   }
   &__nav {
@@ -40,7 +39,7 @@
     &-item {
       text-decoration: none;
       justify-content: space-between;
-      color: $lips;
+      color: $black;
 
       &:hover {
         font-weight: bold;

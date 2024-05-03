@@ -6,7 +6,14 @@ function Header() {
     <header className="header">
       <div className="header__logo">
         <Link to="/">
-         <h2 className="header__logo-text"> {"< Behina Bhr />"}</h2>
+          <a href="https://www.fontspace.com/category/english">
+            <img
+              className="header__logo-image"
+              src="https://see.fontimg.com/api/renderfont4/YaaO/eyJyIjoiZnMiLCJoIjoxMTUsInciOjEwMDAsImZzIjoxMTUsImZnYyI6IiMwMDAwMDAiLCJiZ2MiOiIjRkZGRkZGIiwidCI6MX0/PCBCZWhpbmEgQmhyIC8-/aspire-demibold.png"
+              alt="English fonts"
+              loading="lazy"
+            />
+          </a>
         </Link>
       </div>
       <nav className="header__nav">
