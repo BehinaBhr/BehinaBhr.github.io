@@ -12,7 +12,7 @@ a {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Raleway", Arial, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 a {
@@ -20,8 +20,19 @@ a {
 }
 
 .app {
-  background-color:#0a192f;
+  background-color: $light-pink;
   min-height: 100vh;
-  background-attachment: fixed;
-  color:$white;
+}
+
+main {
+  padding-left: $mobile-padding;
+  padding-right: $mobile-padding;
+
+  @include tablet {
+    padding-left: $tablet-padding;
+    padding-right: $tablet-padding;
+  }
+  @include desktop {
+    max-width: $breakpoint-desktop;
+  }
 }

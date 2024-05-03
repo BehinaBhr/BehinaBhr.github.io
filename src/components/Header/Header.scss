@@ -23,7 +23,7 @@
   }
   &__logo {
     &-text {
-      color: $vibrant-lavender;
+      color: $lips;
     }
   }
   &__nav {
@@ -40,11 +40,11 @@
     &-item {
       text-decoration: none;
       justify-content: space-between;
-      color: $lavender;
+      color: $lips;
 
       &:hover {
         font-weight: bold;
-        color: $vibrant-lavender;
+        color: $vibrant-lips;
         cursor: pointer;
       }
     }
