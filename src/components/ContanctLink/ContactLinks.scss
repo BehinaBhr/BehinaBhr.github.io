@@ -6,13 +6,12 @@
   flex-direction: row;
   cursor: pointer;
   gap: $small-mobile-padding;
+
   @include tablet {
     gap: $mobile-padding;
   }
   &__item {
     display: flex;
-    justify-content: baseline;
-    align-items: center;
     img {
       width: 28px;
       transition: transform 0.3s ease-in-out;

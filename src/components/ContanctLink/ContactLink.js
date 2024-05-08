@@ -32,17 +32,14 @@ function ContactLinks() {
   return (
     <div className="contact-links">
       {contactLinks.map((contact) => (
-        <div className="contact-links__item">
-          <a
-            key={contact.name}
-            href={contact.link}
-            target="_blank"
-            rel="noreferrer noopener"
-            className="contact-links__link"
-          >
-            <img src={contact.logo} alt={`${contact.name} Logo`} />
-          </a>
-        </div>
+        <a
+          key={contact.name}
+          href={contact.link}
+          target="_blank"
+          rel="noreferrer noopener"
+          className="contact-links__item">
+          <img src={contact.logo} alt={`${contact.name} Logo`} />
+        </a>
       ))}
     </div>
   );
