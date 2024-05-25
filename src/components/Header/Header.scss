@@ -10,7 +10,7 @@
   flex-direction: column;
   align-items: center;
   padding: $mobile-padding;
-  gap: $small-mobile-padding;
+  gap: $small-space-between;
   @include tablet {
     flex-direction: row;
     justify-content: space-between;
