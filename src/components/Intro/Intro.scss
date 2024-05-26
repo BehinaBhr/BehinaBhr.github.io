@@ -10,9 +10,10 @@
   @include tablet {
     gap: $tablet-padding;
   }
-  &__story {
+  &__section {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: $mobile-padding;
     @include tablet {
       align-items: flex-start;
@@ -20,10 +21,7 @@
     }
     &-title {
       @include subheader;
-      align-items: center;
-      justify-content: center;
       color: $vibrant-lips;
-      font-weight: bold;
     }
     &-content {
       @include body-large;
@@ -32,19 +30,13 @@
       }
     }
   }
-  section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
   &__char {
     display: flex;
-    flex-direction: row;
-    gap: $mobile-padding;
+    flex-direction: column;
     @include tablet {
+      width:100%;
       flex-direction: row;
-      align-items: flex-start;
-      gap: $space-between;
+      justify-content: space-evenly;
     }
     &-title {
       @include body-large;
