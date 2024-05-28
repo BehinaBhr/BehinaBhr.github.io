@@ -26,6 +26,7 @@
     &-content {
       @include body-large;
       text-align: center;
+      padding:0 $small-space-between;
       @include tablet {
         text-align: left;
       }

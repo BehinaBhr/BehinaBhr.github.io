@@ -6,10 +6,10 @@ const Skill = () => {
 
   return (
     <div className="skill">
-      <div className="skill__section">
-        <div className="skill__section-title">🛠️ Skills</div>
+      <section className="skill__section">
+        <h2 className="skill__section-title">🛠️ My Tech Stack</h2>
         <div className="skill__section-content">
-          <div className="skill__section-content-icons">
+          <div className="skill__section-content-badges">
             <img
               src="https://img.shields.io/badge/-HTML5-%23E44D27?style=flat-square&logo=html5&logoColor=ffffff"
               alt="HTML5"
@@ -159,46 +159,49 @@ const Skill = () => {
             />
           </div>
         </div>
-      </div>
+      </section>
 
-      <div className="skill__section">
-        <div className="skill__section-title">🦾 Continuously Learning</div>
+      <section className="skill__section">
+        <h2 className="skill__section-title">🦾 Continuously Learning</h2>
         <div className="skill__section-content">
-          <div className="skill__section-content-info">
+          <div className="skill__section-content-slogan">
             <img
               src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHN6cjU0NzM0ZWlnYTJlbnh4dWp1c3U3bXhjaHk1ODV1N2xhMDl5YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SeacrMeHvQA58QkckE/giphy.gif"
               alt="a girl with books on top of her head, always learning"
             />
+          </div>
+          <div className="skill__section-content-info">
             <p>
-              <span className="skill__section-content-info--bold">Learning new things gives my life meaning</span>, whether
-              through <span className="skill__section-content-info--bold">feedback from others or self-studying</span>. Feel
+              <span className="skill__section-content-info--bold">Learning new things gives my life meaning</span>,
+              whether through
+              <span className="skill__section-content-info--bold"> feedback from others or self-studying</span>. Feel
               free to reach out to me; I'd love to hear from you and grow alongside you.
             </p>
-          </div>
-          <div className="skill__section-content-icons">
-            <img
-              className="skill__section-content-item"
-              src="https://img.shields.io/badge/React_Testing_Library-%23E33332?style=flat-square&logo=testing-library&logoColor=white"
-              alt="React Testing Library"
-            />
-            <img
-              className="skill__section-content-item"
-              src="https://img.shields.io/badge/-Next.js-%23000000?style=flat-square&logo=nextdotjs&logoColor=ffffff"
-              alt="Next.js"
-            />
-            <img
-              className="skill__section-content-item"
-              src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=ffffff"
-              alt="TypeScript"
-            />
-            <img
-              className="skill__section-content-item"
-              src="https://img.shields.io/badge/Jest-%23C21325?style=flat-square&logo=jest&logoColor=ffffff"
-              alt="Jest"
-            />
+            <div className="skill__section-content-badges">
+              <img
+                src="https://img.shields.io/badge/React_Testing_Library-%23E33332?style=flat-square&logo=testing-library&logoColor=white"
+                alt="React Testing Library"
+              />
+              <img
+                src="https://img.shields.io/badge/-Vite-646CFF?style=flat-square&logo=vite&logoColor=white"
+                alt="Vite"
+              />
+              <img
+                src="https://img.shields.io/badge/-Next.js-%23000000?style=flat-square&logo=nextdotjs&logoColor=ffffff"
+                alt="Next.js"
+              />
+              <img
+                src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=ffffff"
+                alt="TypeScript"
+              />
+              <img
+                src="https://img.shields.io/badge/Jest-%23C21325?style=flat-square&logo=jest&logoColor=ffffff"
+                alt="Jest"
+              />
+            </div>
           </div>
         </div>
-      </div>
+      </section>
     </div>
   );
 };

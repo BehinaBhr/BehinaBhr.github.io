@@ -25,8 +25,72 @@
     }
     &-content {
       @include body-large;
-      &--bold {
-        font-weight: bold;
+      display: flex;
+      flex-direction: column;
+      gap: $mobile-padding;
+      @include tablet {
+        flex-direction: row-reverse;
+        gap: $tablet-padding;
+      }
+      @include desktop {
+        gap: $desktop-padding;
+      }
+
+      &-slogan {
+        display: flex;
+        justify-content: center;
+
+        img {
+          width: 200px;
+          height: 160px;
+          @include tablet {
+            width: 250px;
+            height: 200px;
+          }
+        }
+      }
+      &-info {
+        display: flex;
+        width: fit-content;
+        flex-direction: column;
+        gap: $mobile-padding;
+        align-items: center;
+        @include tablet {
+          gap: $mid-space-between;
+          align-items: flex-start;
+        }
+        p {
+          text-align: center;
+          @include tablet {
+            text-align: left;
+          }
+        }
+        &--bold {
+          font-weight: bold;
+        }
+      }
+      &-badges {
+        display: flex;
+        width: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: $smallest-space-between $small-space-between;
+        @include tablet {
+          justify-content: flex-start;
+          gap: $small-space-between;
+        }
+        img {
+          border-radius: 7px;
+          transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+          cursor: pointer;
+          // zoom on hover
+          &:hover {
+            transform: scale(1.2);
+            @include tablet {
+              transform: scale(1.25);
+            }
+          }
+        }
       }
     }
   }
