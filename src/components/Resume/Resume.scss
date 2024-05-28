@@ -1,0 +1,31 @@
+@use "../../styles/partials/typography-mixins" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/colors" as *;
+
+.resume {
+  @include labels-links-button;
+  display: flex;
+  align-items: center;
+  padding: $smallest-space-between $mobile-padding;
+  background-color: $cream;
+  border: none;
+  border-radius: $oval-border-radius;
+  gap: $smallest-space-between;
+  cursor: pointer;
+  img {
+    width: 28px;
+  }
+  @include tablet {
+    img {
+      width: 36px;
+    }
+  }
+  box-shadow: 7px 7px $gray;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  //button effect: being pushed down on hover
+  &:hover {
+    box-shadow: 3px 3px $gray;
+    transform: translateY(4px);
+  }
+}
