@@ -25,6 +25,10 @@
     }
     &-content {
       @include body-large;
+      text-align: center;
+      @include tablet {
+        text-align: left;
+      }
       &--bold {
         font-weight: bold;
       }
@@ -35,7 +39,7 @@
     flex-direction: column;
     gap: $mobile-padding;
     @include tablet {
-      width:100%;
+      width: 100%;
       flex-direction: row;
       justify-content: space-evenly;
     }
