@@ -23,10 +23,10 @@ const Intro = () => {
           tight deadlines, making me a valuable asset to any software development team.
         </p>
 
-        <div className="intro__char">
+        <div className="intro__subsection">
           <details>
-            <summary className="intro__char-title">Features:</summary>
-            <ul className="intro__char-content">
+            <summary className="intro__subsection-title">Features:</summary>
+            <ul className="intro__subsection-content">
               <li>Quick Learner</li>
               <li>Diligent & Detail-Oriented</li>
               <li>Organized & Strategic Thinker</li>
@@ -35,12 +35,13 @@ const Intro = () => {
             </ul>
           </details>
           <details>
-            <summary className="intro__char-title">Hobbies:</summary>
-            <ul className="intro__char-content">
+            <summary className="intro__subsection-title">Hobbies:</summary>
+            <ul className="intro__subsection-content">
               <li>Singing & Guitar Playing</li>
               <li>Puzzle Solving</li>
-              <li>Competitive Sports</li>
               <li>Exploring New Places & Flavors</li>
+              <li>Competitive Sports</li>
+              <li>Devouring Stories - Books, Movies</li>
             </ul>
           </details>
         </div>
@@ -50,9 +51,9 @@ const Intro = () => {
         <p className="intro__section-content">
           A well-rounded background, driven by a passion for continuous learning and a drive to tackle new challenges,
           positions me as a highly motivated developer eager to contribute to user-centered software solutions. I'm open
-          to opportunities in <span className="intro__section-content--bold">British Columbia, Canada </span> or{" "}
-          <span className="intro__section-content--bold">Remotely</span>. I'm eager to discuss how my qualifications can
-          contribute to your project's success. Let's connect!
+          to opportunities in <span className="intro__section-content--bold">British Columbia, Canada 🇨🇦 </span> or
+          <span className="intro__section-content--bold"> Remotely 🌎</span>. I'm eager to discuss how my qualifications
+          can contribute to your project's success. Let's connect!
         </p>
       </div>
     </div>

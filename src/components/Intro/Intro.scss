@@ -17,11 +17,11 @@
     gap: $mobile-padding;
     @include tablet {
       align-items: flex-start;
-      gap: $space-between;
+      gap: $mid-space-between;
     }
     &-title {
       @include subheader;
-      color: $vibrant-lips;
+      color: $cherry;
     }
     &-content {
       @include body-large;
@@ -30,9 +30,10 @@
       }
     }
   }
-  &__char {
+  &__subsection {
     display: flex;
     flex-direction: column;
+    gap: $mobile-padding;
     @include tablet {
       width:100%;
       flex-direction: row;
@@ -41,18 +42,15 @@
     &-title {
       @include body-large;
       font-weight: bold;
-      color: $dirty-pink;
+      color: $lips;
     }
     &-content {
-      padding-left: $space-between;
+      padding-left: $mid-space-between;
       ::marker {
-        color: $dirty-pink;
+        color: $dark-lips;
       }
     }
     details {
-      border: none;
-      padding: 0;
-      margin: 0;
       cursor: pointer;
     }
     details[open] .intro__char-content {
