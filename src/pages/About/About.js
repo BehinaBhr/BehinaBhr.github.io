@@ -1,6 +1,5 @@
 import "./About.scss";
 import { DocumentTitle } from "../../utils/utils";
-import { useEffect } from "react";
 import Summary from "../../components/Summary/Summary";
 import Intro from "../../components/Intro/Intro";
 
