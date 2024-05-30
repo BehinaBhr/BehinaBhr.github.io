@@ -1,0 +1,106 @@
+@use "../../styles/partials/typography-mixins" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/colors" as *;
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: $mobile-padding;
+  @include tablet {
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    gap: $mid-space-between;
+  }
+  &__slogan {
+    display: flex;
+    width: fit-content;
+    img {
+      width: 276px;
+      @include tablet {
+        width: 322px;
+      }
+      @include desktop {
+        width: 460px;
+      }
+    }
+  }
+  &__content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: $mobile-padding;
+    @include tablet {
+      align-items: flex-start;
+      gap: $mid-space-between;
+    }
+  }
+  &__title {
+    @include subheader;
+    color: $cherry;
+  }
+  &__info {
+    @include body-large;
+    text-align: center;
+    &--bold {
+      font-weight: bold;
+    }
+    @include tablet {
+      text-align: left;
+    }
+  }
+  &__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &-group {
+      gap: $mobile-padding;
+
+      label {
+        @include body-large;
+        // color: $black;
+      }
+
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid $silver;
+        border-radius: 5px;
+        font-size: 16px;
+        color: $black;
+
+        &:focus {
+          outline: none;
+          border-color: $cherry;
+        }
+      }
+    }
+    &-button {
+      button {
+        @include labels-links-button;
+        padding: $smallest-space-between $mobile-padding;
+        background-color: $lips;
+        border: none;
+        border-radius: $oval-border-radius;
+        cursor: pointer;
+        box-shadow: 7px 7px $gray;
+        transition: box-shadow 0.2s ease, transform 0.2s ease;
+        // button effect: being pushed down on hover
+        &:hover {
+          box-shadow: 3px 3px $gray;
+          transform: translateY(4px);
+        }
+      }
+    }
+    &-success-message {
+      background-color: $fade-skin;
+      border-radius: 5px;
+      padding: $mobile-padding;
+      @include body-large;
+    }
+  }
+}
