@@ -25,6 +25,7 @@ a {
 }
 
 main {
+  padding-top: $tablet-padding;
   padding-left: $mobile-padding;
   padding-right: $mobile-padding;
 
@@ -33,6 +34,7 @@ main {
     padding-right: $tablet-padding;
   }
   @include desktop {
+    padding-top: $large-space-between;
     max-width: $breakpoint-desktop;
     margin: 0 auto;
   }
