@@ -28,6 +28,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    @include desktop {
+      gap: $smallest-space-between;
+    }
     &-starter {
       @include body-large;
       color: $gray;

@@ -14,11 +14,16 @@
   gap: $smallest-space-between;
   cursor: pointer;
   img {
-    width: 28px;
+    width: 32px;
   }
   @include tablet {
     img {
       width: 36px;
+    }
+  }
+  @include desktop {
+    img {
+      width: 44px;
     }
   }
   box-shadow: 7px 7px $gray;
