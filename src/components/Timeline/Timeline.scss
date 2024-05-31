@@ -1,0 +1,46 @@
+@use "../../styles/partials/typography-mixins" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/colors" as *;
+
+.timeline {
+  .timeline-element {
+    margin-left: 0 !important; // Override default margin for timeline elements
+    padding: 20px; // Add padding to each timeline element
+    img{
+      width: 40px;
+    height: 40px;
+    }
+    .timeline-element-title {
+      font-size: 18px;
+      margin-bottom: 5px;
+    }
+
+    .timeline-element-subtitle {
+      font-size: 14px;
+      font-style: italic;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 40px; // Add margin between timeline elements
+    }
+  }
+
+  .timeline-element--work {
+    .vertical-timeline-element-content {
+      background-color: #f9f9f9; // Customize background color for work timeline elements
+    }
+  }
+
+  .timeline-element--education {
+    .vertical-timeline-element-content {
+      background-color: $fade-skin; // Customize background color for education timeline elements
+    }
+  }
+}
