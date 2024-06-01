@@ -3,44 +3,80 @@
 @use "../../styles/partials/variables" as *;
 @use "../../styles/partials/colors" as *;
 
-.timeline {
-  .timeline-element {
-    margin-left: 0 !important; // Override default margin for timeline elements
-    padding: 20px; // Add padding to each timeline element
-    img{
-      width: 40px;
-    height: 40px;
-    }
-    .timeline-element-title {
-      font-size: 18px;
-      margin-bottom: 5px;
-    }
-
-    .timeline-element-subtitle {
-      font-size: 14px;
-      font-style: italic;
-      margin-bottom: 10px;
-    }
-
-    p {
-      font-size: 16px;
-      margin-bottom: 20px;
-    }
-
-    &:not(:last-child) {
-      margin-bottom: 40px; // Add margin between timeline elements
+.vertical-timeline-element {
+  &__work {
+    .vertical-timeline-element-content {
+      background-color: red;
+      &-arrow {
+        border-right: 7px solid red;
+      }
     }
   }
-
-  .timeline-element--work {
+  &__school {
     .vertical-timeline-element-content {
-      background-color: #f9f9f9; // Customize background color for work timeline elements
+      background-color: pink;
+      &-arrow {
+        border-right: 7px solid pink;
+      }
     }
   }
-
-  .timeline-element--education {
-    .vertical-timeline-element-content {
-      background-color: $fade-skin; // Customize background color for education timeline elements
+  &-icon {
+    &__work {
+      background-color: #06d6a0;
     }
+
+    &__school {
+      background-color: #f9c74f;
+    }
+  }
+  &-content {
+    box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25), 0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+    padding: 2em 3em !important;
+  }
+  &-title {
+    padding-top: 0.25em;
+  }
+  &-date {
+    @media only screen and (max-width: 1700px) {
+      display: block !important;
+      float: none !important;
+      // color: rgb(44, 44, 44);
+      margin-top: 1.5em;
+    }
+  }
+  &-location {
+    font-size: 1em;
+    margin-bottom: 0.5em;
+  }
+
+  &-description {
+    margin: 1.5em 0 2em 0;
+  }
+  &-button {
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    color: white;
+    &__work {
+      background-color: #06d6a0;
+      &:hover {
+        background-color: #0ac593;
+      }
+    }
+    &__school {
+      background-color: #f9c74f;
+      &:hover {
+        background-color: #f3bc3c;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1700px) {
+  .vertical-timeline-element-date {
+    display: block !important;
+    float: none !important;
+    color: rgb(44, 44, 44);
+    margin-top: 1.5em;
   }
 }
