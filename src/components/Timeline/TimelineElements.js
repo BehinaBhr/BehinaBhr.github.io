@@ -7,7 +7,6 @@ let timelineElements = [
       "Consulted HR/I-O Psychology insights to optimize high-volume requests, fostering collaboration and personalized client relations, boosting satisfaction and sales. Founded a customer-centric atmosphere with organized displays, resolved upset customers' issues, and ensured precision in online support, improving overall service quality.",
     date: "Jan 2023 - Nov 2023",
     icon: "work",
-    buttonText: "more",
     buttonLink: "https://drive.google.com/file/d/16zyLz2RPhp_ohtxOUpEYtNFw0OWqqNNo/view?usp=sharing",
   },
   {
@@ -61,7 +60,7 @@ let timelineElements = [
     location: "Bu-Ali Sina University",
     date: "Sep 2017 - Apr 2021",
     icon: "school",
-    buttonText: "My  Certificate",
+    buttonText: "My Certificate",
     buttonLink: "https://drive.google.com/file/d/1az-R3H1IA4Lc4EIm0DZKJZszNQFECUEc/view?usp=sharing",
   },
   {
@@ -70,7 +69,7 @@ let timelineElements = [
     location: "National Organization for Development of Exceptional Talents",
     date: "Sep 2012 - Jan 2017",
     icon: "school",
-    buttonText: "My  Certificate",
+    buttonText: "My Certificate",
     buttonLink: "https://drive.google.com/file/d/16zyLz2RPhp_ohtxOUpEYtNFw0OWqqNNo/view?usp=sharing",
   },
 ];

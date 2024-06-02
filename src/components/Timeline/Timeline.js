@@ -4,7 +4,7 @@ import "react-vertical-timeline-component/style.min.css";
 import TimelineElements from "./TimelineElements";
 import { ReactComponent as WorkIcon } from "../../assets/images/work.svg";
 import { ReactComponent as SchoolIcon } from "../../assets/images/school.svg";
-
+import certificateIcon from "../../assets/images/certificate.svg";
 const Timeline = () => {
   return (
     <VerticalTimeline>
@@ -27,7 +27,7 @@ const Timeline = () => {
           >
             <h3 className="vertical-timeline-element-title">{element.title}</h3>
             <h5 className="vertical-timeline-element-location">{element.location}</h5>
-            <p className="vertical-timeline-element-description">{element.description}</p>
+            {element.descriptionn && <p className="vertical-timeline-element-description">{element.description}</p>}
             {showButton && (
               <a
                 className={buttonClass}
@@ -36,7 +36,8 @@ const Timeline = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                {element.buttonText}
+                <img className="vertical-timeline-element-button__icon" src={certificateIcon} alt="Certificate Icon" />
+                <span>{element.buttonText}</span>
               </a>
             )}
           </VerticalTimelineElement>
