@@ -70,7 +70,7 @@ let timelineElements = [
   },
   {
     id: 8,
-    title: "Dip, Experimental Science",
+    title: "Diploma, Experimental Science",
     location: "Farzanegan 1 Highschool (Sampad)",
     date: "Sep 2012 - Jan 2017",
     icon: "school",
