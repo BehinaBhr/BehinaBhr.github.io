@@ -4,6 +4,13 @@
 @use "../../styles/partials/colors" as *;
 
 .vertical-timeline-element {
+  transition: transform 0.3s ease-in-out;
+  &:hover {
+    transform: scale(1.04);
+    @include desktop {
+      transform: scale(1.1);
+    }
+  }
   &__work {
     .vertical-timeline-element-content {
       background-color: $white;
@@ -17,7 +24,7 @@
   }
   &__school {
     .vertical-timeline-element-content {
-      background-color: $fade-skin;
+      background-color: $white;
       &:hover {
         border: $lips 1.5px solid;
       }
@@ -27,10 +34,17 @@
     }
   }
   &-icon {
+    svg {
+      @media only screen and (min-width: 1170px) {
+        height: auto !important;
+        width: 40px !important;
+        position: initial;
+        margin: 8px auto;
+      }
+    }
     &__work {
       background-color: $mustard;
     }
-
     &__school {
       background-color: $lips;
     }
@@ -39,37 +53,24 @@
     @include labels-links-button;
     display: flex;
     align-items: center;
-    gap: $smallest-space-between;
-    span {
-      display: none;
-      @include tablet {
-        display: inline-block;
-      }
-    }
-    text-decoration: none;
-    padding: $smallest-space-between $small-space-between;
-    border-radius: 5px;
-    color: $white;
     width: fit-content;
+    color: $black;
+    text-decoration: underline;
     &__icon {
-      width: 32px;
+      width: 28px;
       @include tablet {
-        width: 36px;
+        width: 32px;
       }
       @include desktop {
-        width: 44px;
+        width: 36px;
       }
     }
-    &__school {
-      color: $pink;
-
-      &:hover {
-        color: $lips;
-        text-decoration: underline;
-        .vertical-timeline-element-button__icon {
-          background-color: $lips;
-          border-radius: 5px;
-        }
+    &:hover {
+      cursor: pointer;
+      color: $cherry;
+      .vertical-timeline-element-button__icon {
+        background-color: $lips;
+        border-radius: 22px;
       }
     }
   }
@@ -91,17 +92,20 @@
   }
   &-location {
     @include body-large;
+    &__linked {
+      color: $black;
+      text-decoration: underline;
+      &:hover {
+        cursor: pointer;
+        color: $mustard;
+      }
+    }
   }
   &-description {
     @include body-medium;
+    color: $fade-black;
   }
-}
-
-@media only screen and (max-width: 1700px) {
-  .vertical-timeline-element-date {
-    display: block !important;
-    float: none !important;
-    color: rgb(44, 44, 44);
-    margin-top: 1.5em;
+  &-date {
+    color: $fade-black;
   }
 }
