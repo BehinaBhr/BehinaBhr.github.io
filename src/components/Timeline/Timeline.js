@@ -5,6 +5,7 @@ import TimelineElements from "./TimelineElements";
 import { ReactComponent as WorkIcon } from "../../assets/images/work.svg";
 import { ReactComponent as SchoolIcon } from "../../assets/images/school.svg";
 import certificateIcon from "../../assets/images/certificate.svg";
+
 const Timeline = () => {
   return (
     <VerticalTimeline>

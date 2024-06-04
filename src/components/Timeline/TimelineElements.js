@@ -1,4 +1,4 @@
-let timelineElements = [
+let TimelineElements = [
   {
     id: 1,
     title: "Customer Service Sales Specialist",
@@ -79,4 +79,4 @@ let timelineElements = [
   },
 ];
 
-export default timelineElements;
+export default TimelineElements;

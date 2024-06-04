@@ -1,0 +1,29 @@
+@use "../../styles/partials/typography-mixins" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/colors" as *;
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  gap: $mobile-padding;
+  @include tablet {
+    gap: $tablet-padding;
+  }
+  &__header {
+    display: flex;
+    flex-direction: row;
+    
+    &-icon {
+      width: 40px;
+    }
+    &-title {
+        @include subheader;
+    }
+  }
+  &__section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
