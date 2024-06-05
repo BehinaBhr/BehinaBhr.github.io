@@ -6,24 +6,22 @@
 .experience {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   gap: $mobile-padding;
   @include tablet {
     gap: $tablet-padding;
   }
-  &__header {
-    display: flex;
-    flex-direction: row;
-    
-    &-icon {
-      width: 40px;
-    }
-    &-title {
-        @include subheader;
-    }
+  @media only screen and (min-width: 1170px) {
+    align-items: center;
   }
-  &__section{
+  &__header {
+    @include subheader;
+    color:$cherry;
+  }
+  &__section {
     display: flex;
     align-items: center;
     justify-content: center;
+    width:100%;
   }
 }
