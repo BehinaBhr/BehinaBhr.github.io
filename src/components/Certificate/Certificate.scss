@@ -26,16 +26,16 @@
       padding-left: 0rem;
     }
   }
-  
+
   &__list {
     @include body-large;
-    list-style: square;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
+    list-style: square;
     text-align: left;
-    gap: $small-space-between;
     padding-left: $mid-space-between;
+    gap: $small-space-between;
     width: 80%;
     @include tablet {
       align-self: center;
@@ -43,9 +43,12 @@
     }
     @media only screen and (min-width: 1170px) {
       width: 70%;
+      text-align: left;
+      list-style: inside;
     }
     @include desktop {
-      width: 90%;
+      width: 100%;
+      padding-left: 5rem;
     }
   }
 
@@ -55,7 +58,7 @@
     width: 80%;
     @include tablet {
       align-self: center;
-      width: 100%;
+      width: 90%;
     }
     @media only screen and (min-width: 1170px) {
       width: 70%;
