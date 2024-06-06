@@ -93,6 +93,7 @@
   &-location {
     @include body-large;
     &__linked {
+      @include body-large;
       color: $black;
       text-decoration: underline;
       &:hover {
