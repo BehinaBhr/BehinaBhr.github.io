@@ -1,0 +1,112 @@
+@use "../../styles/partials/typography-mixins" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/colors" as *;
+
+.vertical-timeline-element {
+  transition: transform 0.3s ease-in-out;
+  &:hover {
+    transform: scale(1.04);
+    @include desktop {
+      transform: scale(1.1);
+    }
+  }
+  &__work {
+    .vertical-timeline-element-content {
+      background-color: $white;
+      &:hover {
+        border: $mustard 1.5px solid;
+      }
+      &-arrow {
+        border-right: 7px solid $mustard;
+      }
+    }
+  }
+  &__school {
+    .vertical-timeline-element-content {
+      background-color: $white;
+      &:hover {
+        border: $lips 1.5px solid;
+      }
+      &-arrow {
+        border-right: 7px solid $lips;
+      }
+    }
+  }
+  &-icon {
+    svg {
+      @media only screen and (min-width: 1170px) {
+        height: auto !important;
+        width: 40px !important;
+        position: initial;
+        margin: 8px auto;
+      }
+    }
+    &__work {
+      background-color: $mustard;
+    }
+    &__school {
+      background-color: $lips;
+    }
+  }
+  &-button {
+    @include labels-links-button;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    color: $black;
+    text-decoration: underline;
+    &__icon {
+      width: 28px;
+      @include tablet {
+        width: 32px;
+      }
+      @include desktop {
+        width: 36px;
+      }
+    }
+    &:hover {
+      cursor: pointer;
+      color: $cherry;
+      .vertical-timeline-element-button__icon {
+        background-color: $lips;
+        border-radius: 22px;
+      }
+    }
+  }
+  &-content {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25), 0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+    gap: $smallest-space-between;
+    padding: $smallest-space-between $mobile-padding !important;
+    @include tablet {
+      padding: $small-space-between $mid-space-between !important;
+    }
+    @include desktop {
+      padding: $mid-space-between $tablet-padding !important;
+    }
+  }
+  &-title {
+    @include subheader;
+  }
+  &-location {
+    @include body-large;
+    &__linked {
+      @include body-large;
+      color: $black;
+      text-decoration: underline;
+      &:hover {
+        cursor: pointer;
+        color: $mustard;
+      }
+    }
+  }
+  &-description {
+    @include body-medium;
+    color: $fade-black;
+  }
+  &-date {
+    color: $fade-black;
+  }
+}

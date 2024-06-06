@@ -1,0 +1,66 @@
+@use "../../styles/partials/typography-mixins" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/colors" as *;
+
+.certificate-slider {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  padding: $mobile-padding;
+
+  &__arrow {
+    position: absolute;
+    filter: drop-shadow(0px 0px 7px $gray);
+    color: $light-pink;
+    width: $mid-space-between;
+    height: $mid-space-between;
+    @include tablet {
+      width: $tablet-padding;
+      height: $tablet-padding;
+    }
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+    &:hover {
+      cursor: pointer;
+      filter: drop-shadow(0px 0px 3px $gray);
+      transform: translateY(3px);
+    }
+    &-left {
+      left: 0rem;
+    }
+    &-right {
+      right: 0rem;
+    }
+  }
+
+  &__indicators {
+    position: absolute;
+    bottom: 0rem;
+  }
+  &__indicator {
+    background-color: $pink;
+    height: $smallest-space-between;
+    width: $smallest-space-between;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 5px $gray;
+    margin: 0 0.2rem;
+    cursor: pointer;
+    &-inactive {
+      background-color: $gray;
+    }
+  }
+
+  &__slide {
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 16px $gray;
+    width: 100%;
+    &-hidden {
+      display: none;
+    }
+  }
+}
