@@ -15,22 +15,22 @@ const CertificateSlider = ({ data }) => {
 
   return (
     <div className="certificate-slider">
-      <BsArrowLeftCircleFill onClick={prevSlide} className="arrow arrow-left" />
+      <BsArrowLeftCircleFill onClick={prevSlide} className="certificate-slider__arrow certificate-slider__arrow-left" />
       {data.map((item, idx) => (
         <a href={item.href} target="_blank" rel="noopener noreferrer" key={idx}>
           <img
             src={item.src}
             alt={`Certificate ${idx}`}
-            className={slide === idx ? "slide" : "slide slide-hidden"}
+            className={slide === idx ? "certificate-slider__slide" : "certificate-slider__slide certificate-slider__slide-hidden"}
           />
         </a>
       ))}
-      <BsArrowRightCircleFill onClick={nextSlide} className="arrow arrow-right" />
-      <span className="indicators">
+      <BsArrowRightCircleFill onClick={nextSlide} className="certificate-slider__arrow certificate-slider__arrow-right" />
+      <span className="certificate-slider__indicators">
         {data.map((_, idx) => (
           <button
             key={idx}
-            className={slide === idx ? "indicator" : "indicator indicator-inactive"}
+            className={slide === idx ? "certificate-slider__indicator" : "certificate-slider__indicator certificate-slider__indicator-inactive"}
             onClick={() => setSlide(idx)}
           ></button>
         ))}

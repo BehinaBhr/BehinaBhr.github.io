@@ -6,73 +6,59 @@
 .certificate {
   display: flex;
   flex-direction: column;
-  gap: $mobile-padding;
+  align-items: center;
   width: 100%;
+  gap: $mobile-padding;
   @include tablet {
+    align-items: flex-start;
     gap: $mid-space-between;
   }
-  &__header {
-    display: flex;
-    justify-content: flex-start;
-    width: 100%;
-    gap: $small-space-between;
-    @media only screen and (max-width: 330px) {
-      padding-left: $small-space-between;
+  @media only screen and (min-width: 1170px) {
+    align-items: center;
+  }
+
+  &__title {
+    @include subheader;
+    @include tablet {
+      padding-left: 1.5rem;
     }
-    padding-left: $mobile-padding;
     @media only screen and (min-width: 1170px) {
-      padding: 0;
-      gap: $mid-space-between;
-      justify-content: center;
-      align-items: center;
-    }
-    &-icon {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      @media only screen and (max-width: 330px) {
-        width: 28px;
-      }
-      width: 36px;
-      @media only screen and (min-width: 1170px) {
-        width: 44px;
-      }
-    }
-    &-title {
-      @include subheader;
+      padding-left: 0rem;
     }
   }
+  
   &__list {
     @include body-large;
+    list-style: square;
     display: flex;
     flex-direction: column;
-    text-align: flex-start;
-    gap: $smallest-space-between;
-
-    @media only screen and (max-width: 330px) {
-      padding-left: $tablet-padding;
+    justify-content: center;
+    text-align: left;
+    gap: $small-space-between;
+    padding-left: $mid-space-between;
+    width: 80%;
+    @include tablet {
+      align-self: center;
+      width: 90%;
     }
-    padding-left: $large-space-between;
     @media only screen and (min-width: 1170px) {
-      padding: 0;
-      gap: $small-space-between;
-      justify-content: center;
-      align-items: center;
+      width: 70%;
     }
-    @include desktop{
-      gap: $mobile-padding;
+    @include desktop {
+      width: 90%;
     }
   }
+
   &__slider {
     display: flex;
-    align-items: center;
-    width:fit-content;
-    @media only screen and (max-width: 330px) {
-      margin: 0 $mobile-padding;
+    justify-content: center;
+    width: 80%;
+    @include tablet {
+      align-self: center;
+      width: 100%;
     }
-    margin: 0 $tablet-padding;
     @media only screen and (min-width: 1170px) {
-      margin: 0 $desktop-padding;
+      width: 70%;
     }
   }
 }

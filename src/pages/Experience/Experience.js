@@ -7,13 +7,9 @@ const Experience = () => {
   DocumentTitle(" My Experience");
   return (
     <div className="experience">
-      <h2 className="experience__header">My Educational & Career Path</h2>
-      <section className="experience__section">
-        <Timeline />
-      </section>
-      <section className="experience__section">
-        <Certificate />
-      </section>
+      <h2 className="experience__title">My Educational & Career Path</h2>
+      <Timeline />
+      <Certificate />
     </div>
   );
 };
