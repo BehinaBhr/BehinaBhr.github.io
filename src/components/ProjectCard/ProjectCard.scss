@@ -1,0 +1,75 @@
+@use "../../styles/partials/typography-mixins" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/colors" as *;
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: $small-space-between;
+  gap: $smallest-space-between;
+  background-color: white;
+  box-shadow: 7px 7px $silver;
+  border-radius: 8px;
+  border: 1px solid $gray;
+  transition: transform 0.3s ease;
+  &:hover {
+    transform: translateY(-5px);
+  }
+  width: 200px;
+  @include tablet {
+    width: 250px;
+  }
+  @include tablet {
+    width: 300px;
+  }
+
+  &__icon {
+    width: 135px;
+    @include tablet {
+      width: 148px;
+    }
+    @include desktop {
+      width: 194px;
+    }
+  }
+
+  &__title {
+    @include subheader;
+  }
+
+  &__demoLink {
+    @include body-large;
+    color: $fade-black;
+    text-decoration: underline;
+    &:hover {
+      cursor: pointer;
+      color: $mustard;
+    }
+  }
+
+  &__description {
+    cursor: pointer;
+    &-title {
+      @include body-large;
+      color: $lips;
+    }
+    &-content {
+      @include body-medium;
+      display: flex;
+      flex-direction: column;
+      gap: $smallest-space-between;
+      padding-left: $mid-space-between;
+      ::marker {
+        color: $dark-lips;
+      }
+    }
+  }
+  details[open] {
+    .project-card__description-title {
+      text-align: center;
+      padding-bottom: $smallest-space-between;
+    }
+  }
+}

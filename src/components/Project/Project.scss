@@ -1,0 +1,19 @@
+@use "../../styles/partials/typography-mixins" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/colors" as *;
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  align-items: baseline;
+  gap: $mid-space-between;
+  @include tablet {
+    gap: $tablet-padding;
+  }
+  @include desktop {
+    gap: $large-space-between;
+  }
+}

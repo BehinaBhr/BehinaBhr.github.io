@@ -1,5 +1,6 @@
 import "./Skill.scss";
 import { DocumentTitle } from "../../utils/utils";
+import Project from "../../components/Project/Project";
 
 const Skill = () => {
   DocumentTitle("My Skills");
@@ -160,7 +161,6 @@ const Skill = () => {
           </div>
         </div>
       </section>
-
       <section className="skill__section">
         <h2 className="skill__section-title">🦾 Continuously Learning</h2>
         <div className="skill__section-content">
@@ -200,6 +200,12 @@ const Skill = () => {
               />
             </div>
           </div>
+        </div>
+      </section>
+      <section className="skill__section">
+        <h2 className="skill__section-title"> 🗂️ My projects</h2>
+        <div className="skill__section-content">
+          <Project />
         </div>
       </section>
     </div>
