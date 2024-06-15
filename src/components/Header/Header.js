@@ -1,7 +1,9 @@
 import "./Header.scss";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 function Header() {
+  const location = useLocation();
+
   return (
     <header className="header">
       <div className="header__logo">
@@ -17,16 +19,16 @@ function Header() {
       <nav className="header__nav">
         <ul className="header__nav-list">
           <Link to={"/"}>
-            <li className="header__nav-item">About</li>
+            <li className={`header__nav-item ${location.pathname === "/" ? "active" : ""}`}>About</li>
           </Link>
           <Link to={"/skill"}>
-            <li className="header__nav-item">SkillSet</li>
+            <li className={`header__nav-item ${location.pathname === "/skill" ? "active" : ""}`}>SkillSet</li>
           </Link>
           <Link to={"/experience"}>
-            <li className="header__nav-item">Experience</li>
+            <li className={`header__nav-item ${location.pathname === "/experience" ? "active" : ""}`}>Experience</li>
           </Link>
           <Link to={"/contact"}>
-            <li className="header__nav-item">Contact</li>
+            <li className={`header__nav-item ${location.pathname === "/contact" ? "active" : ""}`}>Contact</li>
           </Link>
         </ul>
       </nav>
