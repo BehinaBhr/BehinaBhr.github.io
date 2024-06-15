@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.eb760bbc.css",
+    "main.js": "/static/js/main.00267e90.js",
+    "static/media/Profile.png": "/static/media/Profile.4a4a28dc015a67d6ed74.png",
+    "static/media/certificate-google-python.png": "/static/media/certificate-google-python.5e4b7a1e1de0f3d0439f.png",
+    "static/media/certificate-brainstation.png": "/static/media/certificate-brainstation.a24ef2510df03b232fa3.png",
+    "static/media/developer.jpeg": "/static/media/developer.deb4c58b08abc925dfdf.jpeg",
+    "static/media/TitilliumWeb-Regular.ttf": "/static/media/TitilliumWeb-Regular.e53e0538893d432e0635.ttf",
+    "static/media/TitilliumWeb-SemiBold.ttf": "/static/media/TitilliumWeb-SemiBold.d4d3eeb6e2367e6796c3.ttf",
+    "static/media/certificate-linkedin-python.png": "/static/media/certificate-linkedin-python.01bb9b699a1836b83d3f.png",
+    "static/media/travelsite.svg": "/static/media/travelsite.8d4f1103fe634d03ec36ab50e748e390.svg",
+    "static/media/pokemon.svg": "/static/media/pokemon.9156282bfa824851fcbbb23a9e1ddc16.svg",
+    "static/media/resume.svg": "/static/media/resume.a56e7bfd0631f1145fb5e31d9761a615.svg",
+    "static/media/bandsite.svg": "/static/media/bandsite.02c34ed20859b9016dc342f8c2d44109.svg",
+    "static/media/coffeeshop.svg": "/static/media/coffeeshop.0d1d67e63b77c7b78a55b1b20c10c970.svg",
+    "static/media/brainflix.svg": "/static/media/brainflix.d0edf88576a93f805870d42177232aa6.svg",
+    "static/media/procket.svg": "/static/media/procket.f9e4b1588f04d492944f7b8e69aab640.svg",
+    "static/media/instock.svg": "/static/media/instock.925cb40d6537ae28c06cecfface9fc2d.svg",
+    "static/media/gmail.svg": "/static/media/gmail.a3cee08a34881e10a63389c89367e996.svg",
+    "static/media/school.svg": "/static/media/school.1d52dd7143d0301d72add02b75c5d5b7.svg",
+    "static/media/work.svg": "/static/media/work.067d48d4a2197119f5c73f60e6d03c4e.svg",
+    "static/media/certificate.svg": "/static/media/certificate.cb4470e003e20f71300c11d546a39d92.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.95d3c2cff04470208f5e030c2d70652c.svg",
+    "static/media/github.svg": "/static/media/github.7c8cc889665a8419fb6e2edcb256c1cd.svg",
+    "index.html": "/index.html",
+    "static/media/instagram.svg": "/static/media/instagram.11ed29f288d809db25b0d356f0ff1253.svg",
+    "main.eb760bbc.css.map": "/static/css/main.eb760bbc.css.map",
+    "main.00267e90.js.map": "/static/js/main.00267e90.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb760bbc.css",
+    "static/js/main.00267e90.js"
+  ]
+}
