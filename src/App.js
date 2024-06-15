@@ -6,6 +6,7 @@ import Skill from "./pages/Skill/Skill";
 import Contact from "./pages/Contact/Contact";
 import Experience from "./pages/Experience/Experience";
 import NotFound from "./pages/NotFound/NotFound";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
+        <Footer />
       </BrowserRouter>
     </div>
   );
