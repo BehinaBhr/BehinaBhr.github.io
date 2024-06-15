@@ -20,7 +20,7 @@ function Header() {
             <li className="header__nav-item">About</li>
           </Link>
           <Link to={"/skill"}>
-            <li className="header__nav-item">Skill</li>
+            <li className="header__nav-item">SkillSet</li>
           </Link>
           <Link to={"/experience"}>
             <li className="header__nav-item">Experience</li>

@@ -25,7 +25,7 @@ const Intro = () => {
 
         <div className="intro__subsection">
           <details>
-            <summary className="intro__subsection-title">Features:</summary>
+            <summary className="intro__subsection-title">Features</summary>
             <ul className="intro__subsection-content">
               <li>Quick Learner</li>
               <li>Diligent & Detail-Oriented</li>
@@ -35,7 +35,7 @@ const Intro = () => {
             </ul>
           </details>
           <details>
-            <summary className="intro__subsection-title">Hobbies:</summary>
+            <summary className="intro__subsection-title">Hobbies</summary>
             <ul className="intro__subsection-content">
               <li>Singing & Guitar Playing</li>
               <li>Puzzle Solving</li>

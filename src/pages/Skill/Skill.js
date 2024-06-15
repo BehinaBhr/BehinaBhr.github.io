@@ -1,8 +1,9 @@
 import "./Skill.scss";
 import { DocumentTitle } from "../../utils/utils";
+import Project from "../../components/Project/Project";
 
 const Skill = () => {
-  DocumentTitle("My Skills");
+  DocumentTitle("My Skill Set");
 
   return (
     <div className="skill">
@@ -160,7 +161,6 @@ const Skill = () => {
           </div>
         </div>
       </section>
-
       <section className="skill__section">
         <h2 className="skill__section-title">🦾 Continuously Learning</h2>
         <div className="skill__section-content">
@@ -200,6 +200,12 @@ const Skill = () => {
               />
             </div>
           </div>
+        </div>
+      </section>
+      <section className="skill__section">
+        <h2 className="skill__section-title"> 🗂️ Projects in Action</h2>
+        <div className="skill__section-content">
+          <Project />
         </div>
       </section>
     </div>
