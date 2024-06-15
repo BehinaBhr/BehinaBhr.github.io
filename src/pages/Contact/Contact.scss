@@ -88,10 +88,11 @@
       input,
       textarea {
         @include body-medium;
+        background-color: $white;
         color: $fade-black;
         width: 100%;
         padding: $smallest-space-between;
-        border: 1px solid $silver;
+        border: 1px solid $gray;
         border-radius: 5px;
         &:focus {
           outline: none;

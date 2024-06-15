@@ -7,22 +7,52 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: $small-space-between;
+  padding: $mobile-padding $smallest-space-between;
   gap: $smallest-space-between;
-  background-color: white;
-  box-shadow: 7px 7px $silver;
+  background-color: $white;
+  box-shadow: 4px 4px $silver;
   border-radius: 8px;
-  border: 1px solid $gray;
-  transition: transform 0.3s ease;
-  &:hover {
-    transform: translateY(-5px);
-  }
+  border: 1.5px solid $gray;
   width: 200px;
   @include tablet {
     width: 250px;
   }
-  @include tablet {
+  @include desktop {
     width: 300px;
+  }
+  &:hover {
+    animation: rotateShadow 1s ease forwards;
+  }
+  @keyframes rotateShadow {
+    0% {
+      transform: rotate(0deg) scale(1);
+      box-shadow: 4px 4px $gray;
+    }
+    25% {
+      transform: rotate(5deg) scale(1.025);
+      box-shadow: 6px 6px $gray;
+    }
+    50% {
+      transform: rotate(-5deg) scale(1.05);
+      box-shadow: -6px 0px $gray;
+    }
+    100% {
+      transform: rotate(0deg) scale(1.1);
+      box-shadow: 6px 6px $gray;
+    }
+  }
+
+  &__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: $smallest-space-between;
+    @include tablet{
+      gap: $small-space-between;
+    }
+    @include desktop{
+      gap: $mobile-padding;
+    }
   }
 
   &__icon {
@@ -37,6 +67,7 @@
 
   &__title {
     @include subheader;
+    text-align: center;
   }
 
   &__demoLink {
@@ -45,31 +76,57 @@
     text-decoration: underline;
     &:hover {
       cursor: pointer;
-      color: $mustard;
+      color: $vibrant-lips;
     }
   }
 
-  &__description {
+  &__details {
+    @include labels-links-button;
     cursor: pointer;
-    &-title {
-      @include body-large;
-      color: $lips;
+    margin-bottom: $small-space-between;
+    padding: $tiny-space-between $small-space-between;
+    border-radius: $oval-border-radius;
+    border: 1px solid $fade-black;
+    background-color: $cream;
+    color: $black;
+    box-shadow: 5px 5px $gray;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+    //button effect: being pushed down on hover
+    &:hover {
+      box-shadow: 3px 3px $gray;
+      transform: translateY(4px);
     }
-    &-content {
-      @include body-medium;
-      display: flex;
-      flex-direction: column;
-      gap: $smallest-space-between;
-      padding-left: $mid-space-between;
-      ::marker {
-        color: $dark-lips;
-      }
-    }
+
   }
-  details[open] {
-    .project-card__description-title {
-      text-align: center;
-      padding-bottom: $smallest-space-between;
+
+  &--expanded {
+    width: 100%;
+    @include tablet {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    transition: box-shadow 0.7s ease, transform 0.7s ease;
+    &:hover {
+      animation: none;
+      box-shadow: 6px 6px $gray;
+      transform:scale(1.03);
+    }
+    .project-card {
+      &__details {
+        margin-bottom: 0;
+      }
+      &__description {
+        @include body-large;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: $smallest-space-between;
+        padding: 0 $smallest-space-between 0 $mid-space-between;
+        ::marker {
+          color: $vibrant-lips;
+        }
+      }
     }
   }
 }

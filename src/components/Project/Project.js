@@ -8,6 +8,7 @@ const Project = () => {
       {ProjectElements.map((project) => (
         <ProjectCard
           key={project.id}
+          id={project.id}
           icon={project.icon}
           title={project.title}
           demoLink={project.demoLink}
