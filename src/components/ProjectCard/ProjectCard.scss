@@ -118,9 +118,7 @@
       &__description {
         @include body-large;
         display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
+        flex-direction: column; 
         gap: $smallest-space-between;
         padding: 0 $smallest-space-between 0 $mid-space-between;
         ::marker {

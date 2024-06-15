@@ -6,7 +6,7 @@
 .skill {
   display: flex;
   flex-direction: column;
-  gap: $mobile-padding;
+  gap: $mid-space-between;
   @include tablet {
     gap: $tablet-padding;
   }
