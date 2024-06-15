@@ -20,11 +20,30 @@
     max-width: $breakpoint-desktop;
     margin: 0 auto;
   }
+
   &__logo {
     &-image {
       width: 13rem;
     }
+    &:hover {
+      animation: dance 1.3s ease infinite;
+    }
+    @keyframes dance {
+      0% {
+        transform: rotate(0deg) scale(1);
+      }
+      25% {
+        transform: rotate(-5deg) scale(1.03);
+      }
+      50% {
+        transform: rotate(+5deg) scale(1.05);
+      }
+      100% {
+        transform: rotate(0deg) scale(1.08);
+      }
+    }
   }
+  
   &__nav {
     &-list {
       display: flex;
