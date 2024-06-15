@@ -1,0 +1,82 @@
+@use "../../styles/partials/typography-mixins" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/colors" as *;
+
+.summary {
+  display: flex;
+  flex-direction: column;
+  gap: $mobile-padding;
+  @include tablet {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: $tablet-padding;
+  }
+  &__content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: $mobile-padding;
+    @include tablet {
+      gap: $tablet-padding;
+      align-items: flex-start;
+      justify-content: center;
+    }
+  }
+  &__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @include desktop {
+      gap: $smallest-space-between;
+    }
+    &-starter {
+      @include body-large;
+      color: $gray;
+      font-weight: bold;
+    }
+    &-main {
+      @include page-header;
+      color: $vibrant-lips;
+      &-expand {
+        display: none;
+        @include tablet {
+          display: inline;
+        }
+      }
+    }
+    &-extra {
+      @include body-large;
+      &-bold {
+        font-weight: bold;
+      }
+      &-expand {
+        display: none;
+        @include tablet {
+          display: inline;
+        }
+      }
+    }
+    @include tablet {
+      align-items: flex-start;
+    }
+  }
+  &__contact {
+    padding-top: $smallest-space-between;
+  }
+  &__slogan {
+    display: flex;
+    align-items: center;
+    img {
+      width: 100%;
+      height: auto;
+    }
+    @include tablet {
+      width: 43%;
+    }
+    @include desktop {
+      width: 50%;
+    }
+  }
+}

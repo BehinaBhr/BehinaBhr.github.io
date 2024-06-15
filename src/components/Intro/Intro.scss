@@ -1,0 +1,65 @@
+@use "../../styles/partials/typography-mixins" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/colors" as *;
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  gap: $mobile-padding;
+  @include tablet {
+    gap: $tablet-padding;
+  }
+  &__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: $mobile-padding;
+    @include tablet {
+      align-items: flex-start;
+      gap: $mid-space-between;
+    }
+    &-title {
+      @include subheader;
+      color: $cherry;
+    }
+    &-content {
+      @include body-large;
+      text-align: center;
+      padding:0 $small-space-between;
+      @include tablet {
+        text-align: left;
+      }
+      &--bold {
+        font-weight: bold;
+      }
+    }
+  }
+  &__subsection {
+    display: flex;
+    flex-direction: column;
+    gap: $mobile-padding;
+    @include tablet {
+      width: 100%;
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+    &-title {
+      @include body-large;
+      font-weight: bold;
+      color: $lips;
+    }
+    &-content {
+      padding-left: $mid-space-between;
+      ::marker {
+        color: $dark-lips;
+      }
+    }
+    details {
+      cursor: pointer;
+    }
+    details[open] .intro__char-content {
+      display: block;
+    }
+  }
+}
