@@ -5,6 +5,7 @@ import bandsiteIcon from "../../assets/images/bandsite.svg";
 import travelsiteIcon from "../../assets/images/travelsite.svg";
 import coffeeshopIcon from "../../assets/images/coffeeshop.svg";
 import pokemonIcon from "../../assets/images/pokemon.svg";
+import pythonIcon from "../../assets/images/python.svg";
 
 let ProjectElements = [
   {
@@ -89,6 +90,18 @@ let ProjectElements = [
       "Conceptualized and co-developed a web-based trivia game within a 24-hour Hackathon alongside 3 teammates employing agile development methodologies to manage project flow, resolve bugs efficiently using VsCode Live Share, and ensure a cohesive final product.",
       "Designed a visually appealing user interface using modern HTML and SCSS frameworks to facilitate user identification of Pokemon based on visual clues or partial descriptions, fostering a fun and engaging competitive environment.",
       "Spearheaded the integration of an external Pokemon API, establishing a robust data retrieval system to dynamically generate game questions, track player progress and ensure a vast pool of Pokémon for players to encounter, enhancing the game's replayability and long-term appeal.",
+    ],
+  },
+  {
+    id: 8,
+    title: "Python Projects",
+    icon: pythonIcon,
+    demoLink: "https://github.com/BehinaBhr/python",
+    description: [
+      "Initiated the compilation of final projects from Angela Yu's 100 Days of Code: The Complete Python Pro Bootcamp for 2023 on Coursera.",
+      "Constructed a diverse array of Python applications, including web scrapers, data visualizations, and interactive games.",
+      "Created a structured GitHub repository that showcases progressive learning and the application of Python programming concepts. Uploaded completed projects with detailed descriptions and documentation to ensure accessibility for future reference and potential collaboration.",
+      "Demonstrated ongoing commitment to skill development through daily coding challenges, currently on Day 45, enhancing problem-solving skills and consistency.",
     ],
   },
 ];
