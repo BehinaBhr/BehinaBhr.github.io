@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.eb760bbc.css",
-    "main.js": "/static/js/main.00267e90.js",
+    "main.js": "/static/js/main.96293908.js",
     "static/media/Profile.png": "/static/media/Profile.4a4a28dc015a67d6ed74.png",
     "static/media/certificate-google-python.png": "/static/media/certificate-google-python.5e4b7a1e1de0f3d0439f.png",
     "static/media/certificate-brainstation.png": "/static/media/certificate-brainstation.a24ef2510df03b232fa3.png",
@@ -17,6 +17,7 @@
     "static/media/brainflix.svg": "/static/media/brainflix.d0edf88576a93f805870d42177232aa6.svg",
     "static/media/procket.svg": "/static/media/procket.f9e4b1588f04d492944f7b8e69aab640.svg",
     "static/media/instock.svg": "/static/media/instock.925cb40d6537ae28c06cecfface9fc2d.svg",
+    "static/media/python.svg": "/static/media/python.488bdeab8b8535b3561d8ac221f2449a.svg",
     "static/media/gmail.svg": "/static/media/gmail.a3cee08a34881e10a63389c89367e996.svg",
     "static/media/school.svg": "/static/media/school.1d52dd7143d0301d72add02b75c5d5b7.svg",
     "static/media/work.svg": "/static/media/work.067d48d4a2197119f5c73f60e6d03c4e.svg",
@@ -26,10 +27,10 @@
     "index.html": "/index.html",
     "static/media/instagram.svg": "/static/media/instagram.11ed29f288d809db25b0d356f0ff1253.svg",
     "main.eb760bbc.css.map": "/static/css/main.eb760bbc.css.map",
-    "main.00267e90.js.map": "/static/js/main.00267e90.js.map"
+    "main.96293908.js.map": "/static/js/main.96293908.js.map"
   },
   "entrypoints": [
     "static/css/main.eb760bbc.css",
-    "static/js/main.00267e90.js"
+    "static/js/main.96293908.js"
   ]
 }
