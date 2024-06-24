@@ -7,9 +7,9 @@ const Experience = () => {
   DocumentTitle(" My Experience");
   return (
     <div className="experience">
+      <Certificate />
       <h2 className="experience__title">My Educational & Career Path</h2>
       <Timeline />
-      <Certificate />
     </div>
   );
 };
