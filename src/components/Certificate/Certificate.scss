@@ -31,7 +31,7 @@
   &__list {
     @include body-large;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     justify-content: center;
     list-style: square;
     text-align: left;
