@@ -1,6 +1,15 @@
 let TimelineElements = [
   {
     id: 1,
+    title: "GradDip, Software Engineering",
+    location: "BrainStation",
+    date: "Jan 2024 - Apr 2024",
+    icon: "school",
+    buttonText: "My Certificate",
+    buttonLink: "https://drive.google.com/file/d/1fqzRC7oBGoGvTlqTCSbTU84DUgbZ9m4b/view?usp=sharing",
+  },
+  {
+    id: 2,
     title: "Customer Service Sales Specialist",
     location: "Sobeys - Thirifty Foods",
     locationLink: "https://www.thriftyfoods.com/find-a-store/store/9470-thrifty-foods-port-moody",
@@ -11,7 +20,7 @@ let TimelineElements = [
     buttonLink: "https://drive.google.com/file/d/16zyLz2RPhp_ohtxOUpEYtNFw0OWqqNNo/view?usp=sharing",
   },
   {
-    id: 2,
+    id: 3,
     title: "Human Resources Assistant",
     location: "The Shining Sun Banquet Hall and Restaurant",
     locationLink: "https://www.instagram.com/ghasre.taban.aligudarz/",
@@ -21,7 +30,7 @@ let TimelineElements = [
     icon: "work",
   },
   {
-    id: 3,
+    id: 4,
     title: "Sales and Customer Service Specialist",
     location: "Peyk Saba Travel Company",
     locationLink: "https://www.payaneha.com/",
@@ -31,7 +40,7 @@ let TimelineElements = [
     icon: "work",
   },
   {
-    id: 4,
+    id: 5,
     title: "Volunteer Assistant Psychologist",
     location: "Mahak - International Society for Children with Cancer",
     locationLink: "https://iscc-charity.org/mahak-charity/",
@@ -41,7 +50,16 @@ let TimelineElements = [
     icon: "work",
   },
   {
-    id: 5,
+    id: 6,
+    title: "BSc, Psychology",
+    location: "Bu-Ali Sina University",
+    date: "Sep 2017 - Apr 2021",
+    icon: "school",
+    buttonText: "My Certificate",
+    buttonLink: "https://drive.google.com/file/d/1az-R3H1IA4Lc4EIm0DZKJZszNQFECUEc/view?usp=sharing",
+  },
+  {
+    id: 7,
     title: "Co-op Robotic Rescue Team",
     location: "Associated with Farzanegan 1 Highschool",
     locationLink: "http://iranopenrobocup.ir/leagues/junior-rescue-maze-secondary",
@@ -49,24 +67,6 @@ let TimelineElements = [
       "Led a team in integrating robotics and programming C++ expertise to develop simulators and create intelligent robots for navigating intricate mazes and avoiding obstacles. Won 1st Place and 3rd Place in the Junior Robotic Competitions.",
     date: "Sep 2013 - Dec 2014",
     icon: "work",
-  },
-  {
-    id: 6,
-    title: "GradDip, Software Engineering",
-    location: "BrainStation",
-    date: "Jan 2024 - Apr 2024",
-    icon: "school",
-    buttonText: "My Certificate",
-    buttonLink: "https://drive.google.com/file/d/1fqzRC7oBGoGvTlqTCSbTU84DUgbZ9m4b/view?usp=sharing",
-  },
-  {
-    id: 7,
-    title: "BSc, Psychology",
-    location: "Bu-Ali Sina University",
-    date: "Sep 2017 - Apr 2021",
-    icon: "school",
-    buttonText: "My Certificate",
-    buttonLink: "https://drive.google.com/file/d/1az-R3H1IA4Lc4EIm0DZKJZszNQFECUEc/view?usp=sharing",
   },
   {
     id: 8,

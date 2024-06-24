@@ -19,7 +19,7 @@
 
   &__title {
     @include subheader;
-    color:$cherry;
+    color: $cherry;
     @include tablet {
       padding-left: 1.5rem;
     }
@@ -31,7 +31,7 @@
   &__list {
     @include body-large;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     justify-content: center;
     list-style: square;
     text-align: left;
@@ -57,9 +57,14 @@
     display: flex;
     justify-content: center;
     width: 80%;
+    margin-bottom: $mobile-padding;
     @include tablet {
       align-self: center;
       width: 90%;
+      margin-bottom: $mid-space-between;
+    }
+    @include desktop {
+      margin-bottom: $tablet-padding;
     }
     @media only screen and (min-width: 1170px) {
       width: 70%;
