@@ -6,7 +6,7 @@ let TimelineElements = [
     date: "Jan 2024 - Apr 2024",
     icon: "school",
     buttonText: "My Certificate",
-    buttonLink: "https://drive.google.com/file/d/1fqzRC7oBGoGvTlqTCSbTU84DUgbZ9m4b/view?usp=sharing",
+    buttonLink: "https://drive.google.com/file/d/1iNEghSNJ49h0Km5IHxrmkj2PWpT7QnqF/view?usp=sharing",
   },
   {
     id: 2,
