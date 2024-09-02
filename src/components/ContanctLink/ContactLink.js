@@ -8,12 +8,12 @@ function ContactLinks() {
   const contactLinks = [
     {
       name: "LinkedIn",
-      link: "https://www.linkedin.com/in/behinabahramsari/",
+      link: "https://www.linkedin.com/in/behinabhr/",
       logo: linkedinLogo,
     },
     {
       name: "Gmail",
-      link: "mailto:mail@jayrajroshan1@gmail.com",
+      link: "mailto:behinabahramsari@gmail.com",
       logo: gmailLogo,
     },
     {
@@ -37,7 +37,8 @@ function ContactLinks() {
           href={contact.link}
           target="_blank"
           rel="noreferrer noopener"
-          className="contact-links__item">
+          className="contact-links__item"
+        >
           <img src={contact.logo} alt={`${contact.name} Logo`} />
         </a>
       ))}
