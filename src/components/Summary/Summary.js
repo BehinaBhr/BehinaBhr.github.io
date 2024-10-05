@@ -13,8 +13,9 @@ const Summary = () => {
             I'm Behina <span className="summary__info-main-expand">Bahramasari</span>
           </div>
           <div className="summary__info-extra">
-            A <span className="summary__info-extra-bold">Full-Stack</span>
-            <span className="summary__info-extra-expand"> Software</span> Developer
+            A <span className="summary__info-extra-bold">Full-Stack </span>
+            <span className="summary__info-extra-expand">Software </span>Developer
+            <br />
           </div>
         </div>
         <div className="summary__resume">

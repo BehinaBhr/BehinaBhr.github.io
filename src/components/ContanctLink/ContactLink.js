@@ -3,6 +3,7 @@ import instagramLogo from "../../assets/images/instagram.svg";
 import linkedinLogo from "../../assets/images/linkedin.svg";
 import githubLogo from "../../assets/images/github.svg";
 import gmailLogo from "../../assets/images/gmail.svg";
+import youtubeLogo from "../../assets/images/youtube.svg";
 
 function ContactLinks() {
   const contactLinks = [
@@ -26,6 +27,11 @@ function ContactLinks() {
       name: "Instagram",
       link: "https://www.instagram.com/be_bhr/",
       logo: instagramLogo,
+    },
+    {
+      name: "Youtube",
+      link: "https://www.youtube.com/playlist?list=PL4jE5I3PT6vHkansW-sgvIFMSqBZbyEEP",
+      logo: youtubeLogo,
     },
   ];
 
