@@ -9,12 +9,12 @@ function ContactLinks() {
   const contactLinks = [
     {
       name: "LinkedIn",
-      link: "https://www.linkedin.com/in/behinabahramsari/",
+      link: "https://www.linkedin.com/in/behinabhr/",
       logo: linkedinLogo,
     },
     {
       name: "Gmail",
-      link: "mailto:mail@jayrajroshan1@gmail.com",
+      link: "mailto:behinabahramsari@gmail.com",
       logo: gmailLogo,
     },
     {
