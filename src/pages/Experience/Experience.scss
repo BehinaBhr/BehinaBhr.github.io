@@ -6,23 +6,37 @@
 .experience {
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: $mid-space-between;
   @include tablet {
-    align-items: flex-start;
     gap: $large-space-between;
   }
   @media only screen and (min-width: 1170px) {
-    align-items: center;
+    gap: $larger-space-between;
   }
-  &__title {
-    @include subheader;
-    color: $cherry;
+
+  &__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: $mobile-padding;
     @include tablet {
-      padding-left: 1.5rem;
+      align-items: flex-start;
+      gap: $mid-space-between;
     }
     @media only screen and (min-width: 1170px) {
-      padding-left: 0rem;
+      align-items: center;
+      gap: $tablet-padding;
+    }
+
+    &-title {
+      @include subheader;
+      color: $cherry;
+      @include tablet {
+        padding-left: $mid-space-between;
+      }
+      @media only screen and (min-width: 1170px) {
+        padding-left: 0;
+      }
     }
   }
 }

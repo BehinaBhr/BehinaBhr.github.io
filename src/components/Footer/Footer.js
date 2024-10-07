@@ -26,7 +26,9 @@ const Footer = () => {
 
         <img className="footer__profile" src={profilePic} alt="Personal Profile" />
       </section>
-      <p className="footer__rights">Designed & Built by Behina Bahramsari 2024</p>
+      <p className="footer__rights">
+        Designed & Developed by <span className="footer__rights--bold"> Behina Bahramsari</span>
+      </p>
     </footer>
   );
 };

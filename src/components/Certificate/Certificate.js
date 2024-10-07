@@ -5,7 +5,10 @@ import CertificateElements from "../CertificateSlider/CertificateElements";
 const Certificate = () => {
   return (
     <div className="certificate">
-      <h2 className="certificate__title">Professional Certificates</h2>
+      <h2 className="certificate__title">🪪 Professional Certificates</h2>
+      <section className="certificate__slider">
+        <CertificateSlider data={CertificateElements} />
+      </section>
       <ul className="certificate__list">
         <li>Google AI Essential - Coursera</li>
         <li>100 Days of Code: The Complete Python Pro Bootcamp - Udemy</li>
@@ -31,9 +34,6 @@ const Certificate = () => {
           The Spring School on Artificial Intelligence, Philosophy, Ethics & Society - Sharif University of Technology
         </li>
       </ul>
-      <div className="certificate__slider">
-        <CertificateSlider data={CertificateElements} />
-      </div>
     </div>
   );
 };

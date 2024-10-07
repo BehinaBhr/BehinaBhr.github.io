@@ -42,7 +42,7 @@
     }
     &-title {
       cursor: pointer;
-      width: 11rem;
+      width: 10.5rem;
       @include tablet {
         width: 13rem;
       }
@@ -78,5 +78,11 @@
 
   &__rights {
     @include body-medium;
+    color: $fade-black;
+    &--bold {
+      &:hover {
+        color: $cherry;
+      }
+    }
   }
 }

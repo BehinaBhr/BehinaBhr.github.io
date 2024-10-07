@@ -1,6 +1,6 @@
 import "./Skill.scss";
 import { DocumentTitle } from "../../utils/utils";
-import Project from "../../components/Project/Project";
+import Certificate from "../../components/Certificate/Certificate";
 
 const Skill = () => {
   DocumentTitle("My Skill Set");
@@ -240,10 +240,7 @@ const Skill = () => {
         </div>
       </section>
       <section className="skill__section">
-        <h2 className="skill__section-title"> 🗂️ Projects in Action</h2>
-        <div className="skill__section-content">
-          <Project />
-        </div>
+        <Certificate />
       </section>
     </div>
   );

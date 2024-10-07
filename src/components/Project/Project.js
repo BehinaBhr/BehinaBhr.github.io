@@ -4,7 +4,7 @@ import ProjectElements from "./ProjectElements.js";
 
 const Project = () => {
   return (
-    <section className="projects" id="projects">
+    <div className="projects" id="projects">
       {ProjectElements.map((project) => (
         <ProjectCard
           key={project.id}
@@ -15,7 +15,7 @@ const Project = () => {
           description={project.description}
         />
       ))}
-    </section>
+    </div>
   );
 };
 

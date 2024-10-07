@@ -13,19 +13,10 @@
     align-items: flex-start;
     gap: $mid-space-between;
   }
-  @media only screen and (min-width: 1170px) {
-    align-items: center;
-  }
 
   &__title {
     @include subheader;
     color: $cherry;
-    @include tablet {
-      padding-left: 1.5rem;
-    }
-    @media only screen and (min-width: 1170px) {
-      padding-left: 0rem;
-    }
   }
 
   &__list {
@@ -37,37 +28,19 @@
     text-align: left;
     padding-left: $mid-space-between;
     gap: $small-space-between;
-    width: 80%;
+    width: 90%;
     @include tablet {
-      align-self: center;
-      width: 90%;
-    }
-    @media only screen and (min-width: 1170px) {
-      width: 70%;
-      text-align: left;
-      list-style: inside;
-    }
-    @include desktop {
       width: 100%;
-      padding-left: 5rem;
     }
   }
 
   &__slider {
     display: flex;
     justify-content: center;
-    width: 80%;
-    margin-bottom: $mobile-padding;
+    width: 90%;
+    margin-bottom: $large-space-between;
     @include tablet {
       align-self: center;
-      width: 90%;
-      margin-bottom: $mid-space-between;
-    }
-    @include desktop {
-      margin-bottom: $tablet-padding;
-    }
-    @media only screen and (min-width: 1170px) {
-      width: 70%;
     }
   }
 }
