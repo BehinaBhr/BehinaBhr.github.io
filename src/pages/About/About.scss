@@ -9,4 +9,13 @@
   @include tablet {
     gap: $tablet-padding;
   }
+  &__spotllight {
+    @include body-large;
+    padding: $mobile-padding;
+    background-color: $lighter-skin;
+    &--bold{
+      font-weight: bold;
+      color:$dark-skin;
+    }
+  }
 }
