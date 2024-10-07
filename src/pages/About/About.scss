@@ -9,7 +9,7 @@
   @include tablet {
     gap: $tablet-padding;
   }
-  &__highlight {
+  &__spotllight {
     @include body-large;
     padding: $mobile-padding;
     background-color: $lighter-skin;
