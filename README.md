@@ -86,7 +86,7 @@ By default, the application should be available at [http://localhost:3000/](http
 ## 💌 Feedback and Support
 Whether you have ideas to share, suggestions for improvement, or questions about the project, I'd love to hear from you! Your feedback is incredibly valuable to me.
 
-[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jayraj-roshan/)](https://www.linkedin.com/in/behinabahramsari/) 
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jayraj-roshan/)](https://www.linkedin.com/in/behinabhr/) 
 [![Gmail Badge](https://img.shields.io/badge/-Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mail@jayrajroshan1@gmail.com)](mailto:mail@behinabahramsari@gmail.com) 
 [![Instagram Badge](https://img.shields.io/badge/-Instagram-e4405f?style=flat-square&logo=Instagram&logoColor=white&link=https://www.instagram.com/roshanjayraj/)](https://www.instagram.com/be_bhr/) 
 ![Portfolio Icon](https://img.icons8.com/ios/20/portfolio.png)[![Portfolio Badge](https://img.shields.io/badge/Portfolio-%23ffffff?style=flat-square)](https://behinabhr.github.io/)
