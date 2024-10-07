@@ -1,6 +1,26 @@
 let TimelineElements = [
   {
     id: 1,
+    title: "Part-Time, Computer Science",
+    location: "Trinity Western University",
+    date: "Sep 2024 - Present",
+    icon: "school",
+    description:
+      "Attending Weekly TWU ICPC Meetings to practice problem-solving and coding for the ICPC coordinated by Andrew Park and Samuel Leung",
+  },
+  {
+    id: 2,
+    title: "Freelance, Full-stack Web Developer",
+    location: "Vancouver Persian Architects ",
+    locationLink: "https://www.linkedin.com/groups/6921522/",
+    description:
+      "Designed and developed a culturally-inspired website that increased community engagement by showcasing their activities user-friendly to encourage users to become active members and volunteers using React and Node.js. Implemented an admin panel with secure sign-in and authentication to manage dynamic content efficiently, streamlining content updates and enhancing UX.",
+    date: "Jul 2024 - Sep 2024",
+    icon: "work",
+    buttonLink: "https://drive.google.com/file/d/16zyLz2RPhp_ohtxOUpEYtNFw0OWqqNNo/view?usp=sharing",
+  },
+  {
+    id: 3,
     title: "GradDip, Software Engineering",
     location: "BrainStation",
     date: "Jan 2024 - Apr 2024",
@@ -9,7 +29,7 @@ let TimelineElements = [
     buttonLink: "https://drive.google.com/file/d/1iNEghSNJ49h0Km5IHxrmkj2PWpT7QnqF/view?usp=sharing",
   },
   {
-    id: 2,
+    id: 4,
     title: "Customer Service Sales Specialist",
     location: "Sobeys - Thirifty Foods",
     locationLink: "https://www.thriftyfoods.com/find-a-store/store/9470-thrifty-foods-port-moody",
@@ -20,7 +40,7 @@ let TimelineElements = [
     buttonLink: "https://drive.google.com/file/d/16zyLz2RPhp_ohtxOUpEYtNFw0OWqqNNo/view?usp=sharing",
   },
   {
-    id: 3,
+    id: 5,
     title: "Human Resources Assistant",
     location: "The Shining Sun Banquet Hall and Restaurant",
     locationLink: "https://www.instagram.com/ghasre.taban.aligudarz/",
@@ -30,7 +50,7 @@ let TimelineElements = [
     icon: "work",
   },
   {
-    id: 4,
+    id: 6,
     title: "Sales and Customer Service Specialist",
     location: "Peyk Saba Travel Company",
     locationLink: "https://www.payaneha.com/",
@@ -40,7 +60,7 @@ let TimelineElements = [
     icon: "work",
   },
   {
-    id: 5,
+    id: 7,
     title: "Volunteer Assistant Psychologist",
     location: "Mahak - International Society for Children with Cancer",
     locationLink: "https://iscc-charity.org/mahak-charity/",
@@ -50,7 +70,7 @@ let TimelineElements = [
     icon: "work",
   },
   {
-    id: 6,
+    id: 8,
     title: "BSc, Psychology",
     location: "Bu-Ali Sina University",
     date: "Sep 2017 - Apr 2021",
@@ -59,7 +79,7 @@ let TimelineElements = [
     buttonLink: "https://drive.google.com/file/d/1az-R3H1IA4Lc4EIm0DZKJZszNQFECUEc/view?usp=sharing",
   },
   {
-    id: 7,
+    id: 9,
     title: "Co-op Robotic Rescue Team",
     location: "Associated with Farzanegan 1 Highschool",
     locationLink: "http://iranopenrobocup.ir/leagues/junior-rescue-maze-secondary",
@@ -69,7 +89,7 @@ let TimelineElements = [
     icon: "work",
   },
   {
-    id: 8,
+    id: 10,
     title: "Diploma, Experimental Science",
     location: "Farzanegan 1 Highschool (Sampad)",
     date: "Sep 2012 - Jan 2017",

@@ -13,7 +13,7 @@
   &__item {
     display: flex;
     img {
-      width: 36px;
+      width: 28px;
       transition: transform 0.3s ease-in-out;
       &:hover {
         transform: scale(1.1);
@@ -21,12 +21,12 @@
     }
     @include tablet {
       img {
-        width:40px;
+        width:32px;
       }
     }
     @include desktop {
       img {
-        width: 52px;
+        width: 44px;
       }
     }
   }
