@@ -1,9 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.cf38caf2.css",
-    "main.js": "/static/js/main.cfb061c3.js",
+    "main.css": "/static/css/main.51c2ea41.css",
+    "main.js": "/static/js/main.01327ac7.js",
     "static/media/Profile.png": "/static/media/Profile.4a4a28dc015a67d6ed74.png",
     "static/media/certificate-google-python.png": "/static/media/certificate-google-python.5e4b7a1e1de0f3d0439f.png",
+    "static/media/certificate-Node.js Web Servers Tests and Deployment.png": "/static/media/certificate-Node.js Web Servers Tests and Deployment.a54dc4204758b7997db3.png",
+    "static/media/certificate-learning Amazon Web Services AWS for developers.png": "/static/media/certificate-learning Amazon Web Services AWS for developers.87916c09e6d3115e3ced.png",
+    "static/media/certificate-DevOps foundations_continuous delivery, continuous integration.png": "/static/media/certificate-DevOps foundations_continuous delivery, continuous integration.898c7208bc34967ce01a.png",
+    "static/media/certificate-AWS essential training for developers.png": "/static/media/certificate-AWS essential training for developers.6206ad81da629c4618f0.png",
+    "static/media/certificate-React Creating and Hosting a FullStack Site.png": "/static/media/certificate-React Creating and Hosting a FullStack Site.a8180cd956d753042a5c.png",
+    "static/media/certificate-learning Next.js.png": "/static/media/certificate-learning Next.js.32060e5fc6f4b13cb568.png",
+    "static/media/certificate-bootstrap 5 essential training.png": "/static/media/certificate-bootstrap 5 essential training.cd18707e7a2031b71f57.png",
+    "static/media/certificate-React Design Patterns.png": "/static/media/certificate-React Design Patterns.37c157992c44d529e36c.png",
+    "static/media/certificate-Test Automation Foundations.png": "/static/media/certificate-Test Automation Foundations.0c4209613b974dce61ad.png",
+    "static/media/certificate-learning TypeScript.png": "/static/media/certificate-learning TypeScript.dd0e574b3efdbbd041c1.png",
+    "static/media/certificate-building web APIs with ASP.NET core in .NET.png": "/static/media/certificate-building web APIs with ASP.NET core in .NET.37d3692b0b092a190315.png",
+    "static/media/certificate-ChatGPT for web developers.png": "/static/media/certificate-ChatGPT for web developers.3bb8214abd1d099cee0e.png",
+    "static/media/certificate-TypeScript Essential Training.png": "/static/media/certificate-TypeScript Essential Training.00295b39d1db15fb189d.png",
+    "static/media/certificate-designing RESTful APIs.png": "/static/media/certificate-designing RESTful APIs.70fb38da581c6b719c74.png",
+    "static/media/certificate-SQL Essential Training.png": "/static/media/certificate-SQL Essential Training.fca9512e4e7e1326094b.png",
     "static/media/certificate-brainstation.png": "/static/media/certificate-brainstation.a24ef2510df03b232fa3.png",
     "static/media/developer.jpeg": "/static/media/developer.deb4c58b08abc925dfdf.jpeg",
     "static/media/TitilliumWeb-Regular.ttf": "/static/media/TitilliumWeb-Regular.e53e0538893d432e0635.ttf",
@@ -24,13 +39,14 @@
     "static/media/certificate.svg": "/static/media/certificate.cb4470e003e20f71300c11d546a39d92.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.95d3c2cff04470208f5e030c2d70652c.svg",
     "static/media/github.svg": "/static/media/github.7c8cc889665a8419fb6e2edcb256c1cd.svg",
+    "static/media/youtube.svg": "/static/media/youtube.8ab0056d9a7e5d98895f8de207784b07.svg",
     "index.html": "/index.html",
     "static/media/instagram.svg": "/static/media/instagram.11ed29f288d809db25b0d356f0ff1253.svg",
-    "main.cf38caf2.css.map": "/static/css/main.cf38caf2.css.map",
-    "main.cfb061c3.js.map": "/static/js/main.cfb061c3.js.map"
+    "main.51c2ea41.css.map": "/static/css/main.51c2ea41.css.map",
+    "main.01327ac7.js.map": "/static/js/main.01327ac7.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf38caf2.css",
-    "static/js/main.cfb061c3.js"
+    "static/css/main.51c2ea41.css",
+    "static/js/main.01327ac7.js"
   ]
 }
