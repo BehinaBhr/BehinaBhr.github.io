@@ -3,7 +3,7 @@
 @use "../../styles/partials/variables" as *;
 @use "../../styles/partials/colors" as *;
 
-.skill {
+.skills {
   display: flex;
   flex-direction: column;
   gap: $mid-space-between;

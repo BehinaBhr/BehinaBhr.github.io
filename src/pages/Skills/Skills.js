@@ -1,16 +1,16 @@
-import "./Skill.scss";
+import "./Skills.scss";
 import { DocumentTitle } from "../../utils/utils";
 import Certificate from "../../components/Certificate/Certificate";
 
-const Skill = () => {
+const Skills = () => {
   DocumentTitle("My Skill Set");
 
   return (
-    <div className="skill">
-      <section className="skill__section">
-        <h2 className="skill__section-title">🛠️ My Tech Stack</h2>
-        <div className="skill__section-content">
-          <div className="skill__section-content-badges">
+    <div className="skills">
+      <section className="skills__section">
+        <h2 className="skills__section-title">🛠️ My Tech Stack</h2>
+        <div className="skills__section-content">
+          <div className="skills__section-content-badges">
             <img
               src="https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat-square&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A"
               alt="JavaScript"
@@ -189,23 +189,23 @@ const Skill = () => {
           </div>
         </div>
       </section>
-      <section className="skill__section">
-        <h2 className="skill__section-title">🦾 Continuously Learning</h2>
-        <div className="skill__section-content">
-          <div className="skill__section-content-slogan">
+      <section className="skills__section">
+        <h2 className="skills__section-title">🦾 Continuously Learning</h2>
+        <div className="skills__section-content">
+          <div className="skills__section-content-slogan">
             <img
               src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHN6cjU0NzM0ZWlnYTJlbnh4dWp1c3U3bXhjaHk1ODV1N2xhMDl5YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SeacrMeHvQA58QkckE/giphy.gif"
               alt="a girl with books on top of her head, always learning"
             />
           </div>
-          <div className="skill__section-content-info">
+          <div className="skills__section-content-info">
             <p>
-              <span className="skill__section-content-info--bold">Learning new things gives my life meaning</span>,
+              <span className="skills__section-content-info--bold">Learning new things gives my life meaning</span>,
               whether through
-              <span className="skill__section-content-info--bold"> feedback from others or self-studying</span>. Feel
+              <span className="skills__section-content-info--bold"> feedback from others or self-studying</span>. Feel
               free to reach out to me; I'd love to hear from you and grow alongside you.
             </p>
-            <div className="skill__section-content-badges">
+            <div className="skills__section-content-badges">
               <img
                 src="https://img.shields.io/badge/AWS-%23FF9900?style=flat-square&logo=amazonaws&logoColor=white"
                 alt="AWS"
@@ -239,11 +239,11 @@ const Skill = () => {
           </div>
         </div>
       </section>
-      <section className="skill__section">
+      <section className="skills__section">
         <Certificate />
       </section>
     </div>
   );
 };
 
-export default Skill;
+export default Skills;

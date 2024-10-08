@@ -19,10 +19,16 @@ function Header() {
       <nav className="header__nav">
         <ul className="header__nav-list">
           <Link to={"/"}>
-            <li className={`header__nav-item ${location.pathname === "/" ? "active" : ""}`}>About</li>
+            <li className={`header__nav-item ${location.pathname === "/" ? "active" : ""}`}>Home</li>
           </Link>
-          <Link to={"/skill"}>
-            <li className={`header__nav-item ${location.pathname === "/skill" ? "active" : ""}`}>SkillSet</li>
+          <Link to={"/about"}>
+            <li className={`header__nav-item ${location.pathname === "/about" ? "active" : ""}`}>About</li>
+          </Link>
+          <Link to={"/skills"}>
+            <li className={`header__nav-item ${location.pathname === "/skills" ? "active" : ""}`}>Skills</li>
+          </Link>
+          <Link to={"/projects"}>
+            <li className={`header__nav-item ${location.pathname === "/projects" ? "active" : ""}`}>Projects</li>
           </Link>
           <Link to={"/experience"}>
             <li className={`header__nav-item ${location.pathname === "/experience" ? "active" : ""}`}>Experience</li>

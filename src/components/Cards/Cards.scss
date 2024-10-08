@@ -1,0 +1,54 @@
+@use "../../styles/partials/typography-mixins" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/colors" as *;
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: $mobile-padding;
+
+  &-item {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid $gray;
+    border-radius: 8px;
+    gap: $smallest-space-between;
+    padding-bottom: $smallest-space-between;
+    &:hover {
+      box-shadow: 4px 4px $silver;
+    }
+
+    &__banner {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      aspect-ratio: 1;
+      width: $mobile-banner-width;
+      @include tablet {
+        width: $tablet-banner-width;
+      }
+      img {
+        width: auto;
+        height: auto;
+        max-width: $mobile-banner-width;
+        max-height: $mobile-banner-width;
+        @include tablet {
+          max-width: $tablet-banner-width;
+          max-height: $tablet-banner-width;
+        }
+      }
+    }
+
+    &__title {
+      @include labels-links-button ;
+      font-weight: lighter;
+      color: $black;
+    }
+  }
+}

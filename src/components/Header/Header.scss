@@ -43,18 +43,23 @@
       }
     }
   }
-  
+
   &__nav {
     &-list {
       display: flex;
-      justify-content: space-between;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
       align-items: center;
       list-style: none;
-      gap: $mobile-padding;
+      gap: $small-space-between;
       @include tablet {
-        gap: $tablet-padding;
+        gap: $mid-space-between;
+      }
+      @include desktop {
+        gap: $large-space-between;
       }
     }
+
     &-item {
       text-decoration: none;
       justify-content: space-between;
