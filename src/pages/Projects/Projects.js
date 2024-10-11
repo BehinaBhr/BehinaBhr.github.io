@@ -1,16 +1,26 @@
 import "./Projects.scss";
 import { DocumentTitle } from "../../utils/utils";
-import Project from "../../components/Project/Project";
+import ProjectCard from "../../components/ProjectCard/ProjectCard";
+import ProjectElements from "./ProjectElements";
 
 const Projects = () => {
   DocumentTitle("My Projects");
 
   return (
     <div className="projects">
-     <section className="projects__section">
-        <h2 className="projects__section-title">🗂️ Projects in Action</h2>
-        <Project />
-      </section>
+      <h2 className="projects__title">🗂️ Projects in Action</h2>
+      <div className="projects__elements" id="projects">
+      {ProjectElements.map((project) => (
+        <ProjectCard
+          key={project.id}
+          id={project.id}
+          icon={project.icon}
+          title={project.title}
+          demoLink={project.demoLink}
+          description={project.description}
+        />
+      ))}
+    </div>
     </div>
   );
 };

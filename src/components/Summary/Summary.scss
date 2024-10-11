@@ -5,6 +5,7 @@
 
 .summary {
   display: flex;
+  width: 100%;
   flex-direction: column;
   gap: $mobile-padding;
   @include tablet {
@@ -62,23 +63,29 @@
       align-items: flex-start;
     }
   }
+
   &__contact {
     padding-top: $smallest-space-between;
   }
+
   &__slogan {
     display: flex;
     align-items: center;
     justify-content: center;
+    width:100%;
+    @include tablet {
+      justify-content: flex-end;
+    }
     img {
       width: 70%;
       height: auto;
-      max-width: 300px;
-    }
-    @include tablet {
-      width: 43%;
-    }
-    @include desktop {
-      width: 50%;
+      max-width: 400px;
+      @include tablet{
+        width: 60%;
+      }
+      @include desktop{
+        width: 45%;
+      }
     }
   }
 }

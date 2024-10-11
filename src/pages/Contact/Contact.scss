@@ -11,6 +11,7 @@
   @include tablet {
     flex-direction: row-reverse;
   }
+
   &__img-wrapper {
     display: flex;
     flex-direction: column;
@@ -54,25 +55,26 @@
     }
   }
   &__title {
-    @include subheader;
+    @include header;
     color: $cherry;
   }
   &__info {
     @include body-large;
     text-align: center;
-    &--bold {
-      font-weight: bold;
-    }
     @include tablet {
       text-align: left;
+    }
+    &--bold {
+      font-weight: bold;
     }
   }
   &__form {
     display: flex;
-    width: 100%;
+    width: 90%;
     flex-direction: column;
     gap: $mobile-padding;
     @include tablet {
+      width: 100%;
       gap: $mid-space-between;
     }
 
@@ -82,7 +84,8 @@
       gap: $smallest-space-between;
 
       label {
-        @include body-large;
+        @include labels-links-button;
+        font-weight: lighter;
       }
 
       input,

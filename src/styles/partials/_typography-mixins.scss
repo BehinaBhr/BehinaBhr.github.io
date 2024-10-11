@@ -12,6 +12,17 @@
   }
 }
 
+@mixin header {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+
+  @include tablet {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+
 @mixin subheader {
   font-size: 1rem;
   line-height: 1.5rem;

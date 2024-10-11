@@ -190,7 +190,7 @@ const Skills = () => {
         </div>
       </section>
       <section className="skills__section">
-        <h2 className="skills__section-title">🦾 Continuously Learning</h2>
+        <h2 className="skills__section-subtitle">🦾 Continuously Learning</h2>
         <div className="skills__section-content">
           <div className="skills__section-content-slogan">
             <img
@@ -239,9 +239,7 @@ const Skills = () => {
           </div>
         </div>
       </section>
-      <section className="skills__section">
-        <Certificate />
-      </section>
+      <Certificate />
     </div>
   );
 };
