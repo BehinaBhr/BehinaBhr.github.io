@@ -21,7 +21,7 @@
   &__content {
     @include body-large;
     text-align: center;
-    padding: 0 $small-space-between;
+    padding: 0 $smallest-space-between;
     @include tablet {
       text-align: left;
     }
@@ -31,20 +31,24 @@
     }
 
     &-button {
-      @include body-large;
-      font-weight: bold;
-      margin: $smallest-space-between 0;
-      padding: $tiny-space-between $small-space-between;
-      color: $black;
-      background-color: $pink;
-      border: 1px solid $light-pink;
-      border-radius: $oval-border-radius;
-      background-size: 200% auto;
-      background-image: linear-gradient(to right, $pink 0%, $fade-skin 50%, $skin 75%, $pink 100%);
-      transition: background-color 0.4s ease-in-out, background-image 0.4s ease-in-out;
-      &:hover {
-        cursor: pointer;
-        background-position: right center;
+      display: flex;
+      justify-content: center;
+      button {
+        @include body-large;
+        font-weight: bold;
+        margin-top: $small-space-between;
+        padding: $tiny-space-between $small-space-between;
+        color: $black;
+        background-color: $pink;
+        border: 1px solid $light-pink;
+        border-radius: $oval-border-radius;
+        background-size: 200% auto;
+        background-image: linear-gradient(to right, $pink 0%, $fade-skin 50%, $skin 75%, $pink 100%);
+        transition: background-color 0.4s ease-in-out, background-image 0.4s ease-in-out;
+        &:hover {
+          cursor: pointer;
+          background-position: right center;
+        }
       }
     }
   }

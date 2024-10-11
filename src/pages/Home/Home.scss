@@ -6,9 +6,9 @@
 .home {
   display: flex;
   flex-direction: column;
-  gap: $mid-space-between;
+  gap: $large-space-between;
   @include tablet {
-    gap: $large-space-between;
+    gap: $larger-space-between;
   }
 
   &__section {
@@ -25,7 +25,7 @@
       @include subheader;
       color: $cherry;
     }
-    
+
     &-content {
       @include body-large;
       text-align: center;
@@ -33,15 +33,36 @@
         text-align: left;
       }
 
-      &--bold {
-        font-weight: bold;
-        color: $dark-skin;
+      &--spotlight {
+        @include body-large;
+        padding: $small-space-between;
+        background-color: $lighter-skin;
       }
 
-      &--highlight {
+      &--expertise {
         @include body-large;
-        padding: $mobile-padding;
-        background-color: $lighter-skin;
+        padding: 0 $smallest-space-between;
+      }
+
+      &--bold {
+        font-weight: bold;
+      }
+
+      &-button {
+        display: flex;
+        justify-content: center;
+        button {
+          @include labels-links-button;
+          margin-top: $small-space-between;
+          padding: $tiny-space-between $mobile-padding;
+          background-color: $light-skin;
+          border: none;
+          border-radius: $oval-border-radius;
+          &:hover {
+            background-color: $fade-black;
+            color: $lighter-skin;
+          }
+        }
       }
     }
   }

@@ -11,8 +11,8 @@ const Open = () => {
         to opportunities in <span className="open__content--bold">British Columbia, Canada 🇨🇦 </span> or
         <span className="open__content--bold"> Remotely 🌎</span>. I'm eager to discuss how my qualifications can
         contribute to your project's success.<br />
-        <Link to="/contact">
-          <button className="open__content-button"> Let's connect!</button>
+        <Link className="open__content-button" to="/contact">
+          <button> Let's connect!</button>
         </Link>
       </p>
     </div>

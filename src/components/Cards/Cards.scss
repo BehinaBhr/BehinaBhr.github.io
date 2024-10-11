@@ -8,26 +8,29 @@
   justify-content: space-evenly;
   flex-wrap: wrap;
   width: 100%;
-  gap: $mobile-padding;
+  gap: $small-space-between;
 
   &-item {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-    background-color: transparent;
-    cursor: pointer;
-    border: 1px solid $gray;
-    border-radius: 8px;
     gap: $smallest-space-between;
-    padding-bottom: $smallest-space-between;
     &:hover {
-      box-shadow: 4px 4px $silver;
+      cursor: pointer;
+      transform: scale(1.1);
+      transition: transform 0.5s;
+      .cards-item__title {
+        color: $dark-lips;
+      }
     }
 
     &__banner {
       display: flex;
+      width: 100%;
       align-items: center;
       justify-content: center;
+      background-color: $fade-cherry;
+      border-radius: 50%;
       aspect-ratio: 1;
       width: $mobile-banner-width;
       @include tablet {
@@ -46,9 +49,9 @@
     }
 
     &__title {
-      @include labels-links-button ;
-      font-weight: lighter;
-      color: $black;
+      @include body-large; 
+      font-weight: bold;
+      color: $fade-black;
     }
   }
 }
