@@ -105,7 +105,7 @@ const Contact = () => {
         <ContactLink />
       </div>
       <div className="contact__content-wrapper">
-        <h2 className="contact__title">Let's Reach Out Together!</h2>
+        <h2 className="contact__title">🤙🏻 Let's Reach Out Together!</h2>
         <p className="contact__info">
           Whether you'd like to
           <span className="contact__info--bold"> share your story, discuss a collaboration, or provide feedback, </span>

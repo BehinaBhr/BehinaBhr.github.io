@@ -9,6 +9,7 @@ const Footer = () => {
 
   return (
     <footer className="footer">
+      <div className="footer__container">
       <section className="footer__wrapper">
         {!isContactPage && (
           <div className="footer__contact">
@@ -26,7 +27,10 @@ const Footer = () => {
 
         <img className="footer__profile" src={profilePic} alt="Personal Profile" />
       </section>
-      <p className="footer__rights">Designed & Built by Behina Bahramsari 2024</p>
+      <p className="footer__rights">
+        Designed & Developed by <span className="footer__rights--bold"> Behina Bahramsari</span>
+      </p>
+      </div>
     </footer>
   );
 };

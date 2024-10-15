@@ -1,0 +1,69 @@
+@use "../../styles/partials/typography-mixins" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/colors" as *;
+
+.home {
+  display: flex;
+  flex-direction: column;
+  gap: $large-space-between;
+  @include tablet {
+    gap: $larger-space-between;
+  }
+
+  &__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: $mobile-padding;
+    @include tablet {
+      align-items: flex-start;
+      gap: $mid-space-between;
+    }
+
+    &-title {
+      @include subheader;
+      color: $cherry;
+    }
+
+    &-content {
+      @include body-large;
+      text-align: center;
+      @include tablet {
+        text-align: left;
+      }
+
+      &--spotlight {
+        @include body-large;
+        padding: $small-space-between;
+        background-color: $lighter-skin;
+      }
+
+      &--expertise {
+        @include body-large;
+        padding: 0 $smallest-space-between;
+      }
+
+      &--bold {
+        font-weight: bold;
+      }
+
+      &-button {
+        display: flex;
+        justify-content: center;
+        button {
+          @include labels-links-button;
+          margin-top: $small-space-between;
+          padding: $tiny-space-between $mobile-padding;
+          background-color: $light-skin;
+          border: none;
+          border-radius: $oval-border-radius;
+          &:hover {
+            background-color: $fade-black;
+            color: $lighter-skin;
+          }
+        }
+      }
+    }
+  }
+}
