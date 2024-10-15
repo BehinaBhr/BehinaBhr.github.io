@@ -14,7 +14,7 @@ const Home = () => {
       <section className="home__section">
         <h2 className="home__section-title">🔦 Spotlight</h2>
         <div className="home__section-content home__section-content--spotlight">
-          A diligent and quick lifelong learner, skilled in creating user-centric web applications, didicated to
+          A diligent and quick lifelong learner, skilled in creating user-centric web applications, dedicated to
           problem-solving and helping others through innovative solutions by leveraging a unique transferable skill set
           honed through a well-rounded career journey.
           <Link className="home__section-content-button" to="/about">
