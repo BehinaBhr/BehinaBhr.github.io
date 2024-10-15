@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.51c2ea41.css",
-    "main.js": "/static/js/main.01327ac7.js",
+    "main.css": "/static/css/main.aa1a7f74.css",
+    "main.js": "/static/js/main.4d48e388.js",
     "static/media/Profile.png": "/static/media/Profile.4a4a28dc015a67d6ed74.png",
+    "static/media/baby.png": "/static/media/baby.e3a81ecaffa492218d28.png",
     "static/media/certificate-google-python.png": "/static/media/certificate-google-python.5e4b7a1e1de0f3d0439f.png",
     "static/media/certificate-Node.js Web Servers Tests and Deployment.png": "/static/media/certificate-Node.js Web Servers Tests and Deployment.a54dc4204758b7997db3.png",
     "static/media/certificate-learning Amazon Web Services AWS for developers.png": "/static/media/certificate-learning Amazon Web Services AWS for developers.87916c09e6d3115e3ced.png",
@@ -19,10 +20,12 @@
     "static/media/certificate-TypeScript Essential Training.png": "/static/media/certificate-TypeScript Essential Training.00295b39d1db15fb189d.png",
     "static/media/certificate-designing RESTful APIs.png": "/static/media/certificate-designing RESTful APIs.70fb38da581c6b719c74.png",
     "static/media/certificate-SQL Essential Training.png": "/static/media/certificate-SQL Essential Training.fca9512e4e7e1326094b.png",
-    "static/media/certificate-brainstation.png": "/static/media/certificate-brainstation.a24ef2510df03b232fa3.png",
+    "static/media/projects.png": "/static/media/projects.7a9a8eac10ceec2aa899.png",
     "static/media/developer.jpeg": "/static/media/developer.deb4c58b08abc925dfdf.jpeg",
+    "static/media/experience.png": "/static/media/experience.5436fcc78beb054fa09a.png",
     "static/media/TitilliumWeb-Regular.ttf": "/static/media/TitilliumWeb-Regular.e53e0538893d432e0635.ttf",
     "static/media/TitilliumWeb-SemiBold.ttf": "/static/media/TitilliumWeb-SemiBold.d4d3eeb6e2367e6796c3.ttf",
+    "static/media/skills.png": "/static/media/skills.7f27a68bc51c1ef82bee.png",
     "static/media/certificate-linkedin-python.png": "/static/media/certificate-linkedin-python.01bb9b699a1836b83d3f.png",
     "static/media/travelsite.svg": "/static/media/travelsite.8d4f1103fe634d03ec36ab50e748e390.svg",
     "static/media/pokemon.svg": "/static/media/pokemon.9156282bfa824851fcbbb23a9e1ddc16.svg",
@@ -42,11 +45,11 @@
     "static/media/youtube.svg": "/static/media/youtube.8ab0056d9a7e5d98895f8de207784b07.svg",
     "index.html": "/index.html",
     "static/media/instagram.svg": "/static/media/instagram.11ed29f288d809db25b0d356f0ff1253.svg",
-    "main.51c2ea41.css.map": "/static/css/main.51c2ea41.css.map",
-    "main.01327ac7.js.map": "/static/js/main.01327ac7.js.map"
+    "main.aa1a7f74.css.map": "/static/css/main.aa1a7f74.css.map",
+    "main.4d48e388.js.map": "/static/js/main.4d48e388.js.map"
   },
   "entrypoints": [
-    "static/css/main.51c2ea41.css",
-    "static/js/main.01327ac7.js"
+    "static/css/main.aa1a7f74.css",
+    "static/js/main.4d48e388.js"
   ]
 }
