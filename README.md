@@ -8,7 +8,7 @@
   Welcome to my dynamic and interactive personal portfolio website!<br>
   It's a journey through my Story, Skills, Projects, Work, and Educational Experiences, providing a gateway to connect with me.
   <br><br>
-  <a href="behinabhr.github.io/" target="_blank"><strong>➥ Live Demo</strong></a>
+  <a href="https://behinabhr.github.io/" target="_blank"><strong>➥ Live Demo</strong></a>
 </p>
 <p align="center">
   Built as a React-based SPA and hosted with GitHub Pages.<br><br>
@@ -58,21 +58,29 @@ By default, the application should be available at [http://localhost:3000/](http
 ## 🧭 Sitemap:
 - Header
     - Logo
-    - Navbar: About, SkillSet, Experience, Contact
+    - Navbar: Home, About, Skills, Projects, Experience, Contact
+- Home
+    - Summary
+    - Spotlight
+    - Expertise
+    - Open to work
 - About
     - My Story
-    - Open to work
-- SkillSet
+- Skills
     - My Tech Stack
     - Continuously Learning
+    - Professional Certificates
+- projects
     - Projects in Action
 - Experience
     - My Educational & Career Path
-    - Professional Certificates
 - Contact
+  - Let's Reach Out Together!
+  - Contact Links
 - Footer
-  - copy right message
   - Get in touch
+  - copy right message
+  
 
 ## 🔮 For the Future
 - Add Dark Mode
