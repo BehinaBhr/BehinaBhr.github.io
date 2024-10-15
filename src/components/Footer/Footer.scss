@@ -5,17 +5,23 @@
 @use "../../styles/partials/colors" as *;
 
 .footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: $smallest-space-between;
-  padding: $smallest-space-between $mobile-padding;
-  @include tablet {
-    padding: $small-space-between $tablet-padding;
-  }
-  @include desktop {
-    max-width: $breakpoint-desktop;
-    margin: 0 auto;
+  margin-top: auto;
+  
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: $smallest-space-between;
+    padding: $mobile-padding;
+    @include tablet {
+      padding: $tablet-padding;
+      gap: $small-space-between;
+    }
+    @include desktop {
+      max-width: $breakpoint-desktop;
+      margin: 0 auto;
+    }
   }
 
   &__wrapper {

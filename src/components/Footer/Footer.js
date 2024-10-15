@@ -9,6 +9,7 @@ const Footer = () => {
 
   return (
     <footer className="footer">
+      <div className="footer__container">
       <section className="footer__wrapper">
         {!isContactPage && (
           <div className="footer__contact">
@@ -29,6 +30,7 @@ const Footer = () => {
       <p className="footer__rights">
         Designed & Developed by <span className="footer__rights--bold"> Behina Bahramsari</span>
       </p>
+      </div>
     </footer>
   );
 };
