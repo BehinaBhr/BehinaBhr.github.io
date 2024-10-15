@@ -2,20 +2,86 @@
 @use "../../styles/partials/mixins" as *;
 @use "../../styles/partials/variables" as *;
 @use "../../styles/partials/colors" as *;
+
 .about {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: $mobile-padding;
   @include tablet {
+    align-items: flex-start;
     gap: $tablet-padding;
   }
-  &__spotllight {
+
+  &__title {
+    @include header;
+    color: $cherry;
+  }
+
+  &__content {
     @include body-large;
-    padding: $mobile-padding;
-    background-color: $lighter-skin;
-    &--bold{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: $mobile-padding;
+    @include tablet {
+      flex-direction: row-reverse;
+    }
+
+    &--bold {
       font-weight: bold;
-      color:$dark-skin;
+    }
+
+    p {
+      @include body-large;
+      text-align: center;
+      width: 90%;
+      @include tablet {
+        text-align: left;
+        width: 100%;
+      }
+    }
+  }
+
+  &__slogan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    @include tablet {
+      align-self: center;
+      width: 20%;
+    }
+  }
+
+  &__subsection {
+    display: flex;
+    flex-direction: column;
+    gap: $mobile-padding;
+    @include tablet {
+      width: 75%;
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+
+    &-title {
+      @include body-large;
+      font-weight: bold;
+      color: $lips;
+    }
+
+    &-content {
+      @include body-large;
+      padding-left: $mid-space-between;
+      ::marker {
+        color: $dark-lips;
+      }
+    }
+    details {
+      cursor: pointer;
+    }
+    details[open] .intro__char-content {
+      display: block;
     }
   }
 }
