@@ -12,7 +12,7 @@ let TimelineElements = [
     id: 2,
     title: "Freelance, Full-stack Web Developer",
     location: "Vancouver Persian Architects ",
-    locationLink: "https://www.linkedin.com/groups/6921522/",
+    locationLink: "https://vancouver-persian-architects-0ede2f654d41.herokuapp.com/",
     description:
       "Designed and developed a culturally-inspired website that increased community engagement by showcasing their activities user-friendly to encourage users to become active members and volunteers using React and Node.js. Implemented an admin panel with secure sign-in and authentication to manage dynamic content efficiently, streamlining content updates and enhancing UX.",
     date: "Jul 2024 - Sep 2024",
