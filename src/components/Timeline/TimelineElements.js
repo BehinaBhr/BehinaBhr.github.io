@@ -31,7 +31,7 @@ let TimelineElements = [
   {
     id: 4,
     title: "Customer Service Sales Specialist",
-    location: "Sobeys - Thirifty Foods",
+    location: "Sobeys - Thrifty Foods",
     locationLink: "https://www.thriftyfoods.com/find-a-store/store/9470-thrifty-foods-port-moody",
     description:
       "Consulted HR/I-O Psychology insights to optimize high-volume requests, fostering collaboration and personalized client relations, boosting satisfaction and sales. Founded a customer-centric atmosphere with organized displays, resolved upset customers' issues, and ensured precision in online support, improving overall service quality.",
