@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.aa1a7f74.css",
-    "main.js": "/static/js/main.4e3c513b.js",
+    "main.js": "/static/js/main.46029753.js",
     "static/media/Profile.png": "/static/media/Profile.4a4a28dc015a67d6ed74.png",
+    "static/media/certificate-google ai esssential.png": "/static/media/certificate-google ai esssential.bc8fb67810703b82a0e4.png",
     "static/media/baby.png": "/static/media/baby.e3a81ecaffa492218d28.png",
     "static/media/certificate-google-python.png": "/static/media/certificate-google-python.5e4b7a1e1de0f3d0439f.png",
     "static/media/certificate-Node.js Web Servers Tests and Deployment.png": "/static/media/certificate-Node.js Web Servers Tests and Deployment.a54dc4204758b7997db3.png",
@@ -46,10 +47,10 @@
     "index.html": "/index.html",
     "static/media/instagram.svg": "/static/media/instagram.11ed29f288d809db25b0d356f0ff1253.svg",
     "main.aa1a7f74.css.map": "/static/css/main.aa1a7f74.css.map",
-    "main.4e3c513b.js.map": "/static/js/main.4e3c513b.js.map"
+    "main.46029753.js.map": "/static/js/main.46029753.js.map"
   },
   "entrypoints": [
     "static/css/main.aa1a7f74.css",
-    "static/js/main.4e3c513b.js"
+    "static/js/main.46029753.js"
   ]
 }
