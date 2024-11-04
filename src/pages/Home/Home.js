@@ -18,7 +18,7 @@ const Home = () => {
           problem-solving and helping others through innovative solutions by leveraging a unique transferable skill set
           honed through a well-rounded career journey.
           <Link className="home__section-content-button" to="/about">
-            <button> More About Me</button>
+            <button>More About Me</button>
           </Link>
         </div>
       </section>

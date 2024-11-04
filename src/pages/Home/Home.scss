@@ -53,6 +53,7 @@
         justify-content: center;
         button {
           @include labels-links-button;
+          color: $black;
           margin-top: $small-space-between;
           padding: $tiny-space-between $mobile-padding;
           background-color: $light-skin;
