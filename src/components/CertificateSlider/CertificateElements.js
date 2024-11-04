@@ -15,8 +15,10 @@ import linkedin12Certificate from "../../assets/images/certificate-React Design 
 import linkedin13Certificate from "../../assets/images/certificate-SQL Essential Training.png";
 import linkedin14Certificate from "../../assets/images/certificate-Test Automation Foundations.png";
 import linkedin15Certificate from "../../assets/images/certificate-TypeScript Essential Training.png";
+import googleAICertificate from "../../assets/images/certificate-google ai esssential.png";
 
 const CertificateElements = [
+  { href: "https://www.coursera.org/account/accomplishments/verify/KYTC9F0O7QZ1", src: googleAICertificate },
   { href: "https://www.coursera.org/account/accomplishments/certificate/JETFTWUP45LA", src: googlePythonCertificate },
   {
     href: "https://www.linkedin.com/learning/certificates/bf82ca1a9b6d57b21e4a2d0f05f7b3e601326bd52addf0420a04f80594daec69?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BTvtWjc3iSwaTiDrWhwPN1g%3D%3D",
