@@ -21,7 +21,7 @@
 </p>
 <p align="center">
   Previous Basic Version:
-  <a href="behinabhr.github.io/portfolio/" target="_blank">behinabhr.github.io/portfolio/</a>
+  <a href="https://behinabhr.github.io/portfolio/" target="_blank">behinabhr.github.io/portfolio/</a>
 </p>
 
 ## 🛠 Features
