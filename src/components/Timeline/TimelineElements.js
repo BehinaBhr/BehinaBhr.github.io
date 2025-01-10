@@ -15,7 +15,7 @@ let TimelineElements = [
     locationLink: "https://www.vpacommunity.ca/",
     description:
       "Single-handedly designed and developed a culturally-inspired website that increased community engagement by showcasing their activities user-friendly to encourage users to become active members and volunteers using React and Node.js. Implemented an admin panel with secure sign-in and authentication to manage dynamic content efficiently, streamlining content updates and enhancing UX.",
-    date: "Jul 2024 - Nov 2024",
+    date: "Jul 2024 - Dec 2024",
     icon: "work",
     buttonLink: "https://drive.google.com/file/d/16zyLz2RPhp_ohtxOUpEYtNFw0OWqqNNo/view?usp=sharing",
   },

@@ -207,8 +207,8 @@ const Skills = () => {
             </p>
             <div className="skills__section-content-badges">
               <img
-                src="https://img.shields.io/badge/AWS-%23FF9900?style=flat-square&logo=amazonaws&logoColor=white"
-                alt="AWS"
+                src="https://img.shields.io/badge/Java-%23ED8B00?style=flat-square&logo=openjdk&logoColor=white"
+                alt="Java"
               />
               <img
                 src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=ffffff"
@@ -218,7 +218,6 @@ const Skills = () => {
                 src="https://img.shields.io/badge/-Next.js-%23000000?style=flat-square&logo=nextdotjs&logoColor=ffffff"
                 alt="Next.js"
               />
-
               <img
                 src="https://img.shields.io/badge/Bootstrap-%23563D7C?style=flat-square&logo=bootstrap&logoColor=white"
                 alt="Bootstrap"
@@ -234,6 +233,18 @@ const Skills = () => {
               <img
                 src="https://img.shields.io/badge/Jest-%23C21325?style=flat-square&logo=jest&logoColor=ffffff"
                 alt="Jest"
+              />
+              <img
+                src="https://img.shields.io/badge/MongoDB-%2347A248?style=flat-square&logo=mongodb&logoColor=white"
+                alt="MongoDB"
+              />
+              <img
+                src="https://img.shields.io/badge/Angular-%23E23237?style=flat-square&logo=angular&logoColor=white"
+                alt="Angular"
+              />
+              <img
+                src="https://img.shields.io/badge/AWS-%23FF9900?style=flat-square&logo=amazonaws&logoColor=white"
+                alt="AWS"
               />
             </div>
           </div>
