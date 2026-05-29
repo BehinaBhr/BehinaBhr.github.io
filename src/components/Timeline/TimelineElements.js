@@ -3,7 +3,7 @@ let TimelineElements = [
     id: 1,
     title: "Part-Time, Computer Science",
     location: "Trinity Western University",
-    date: "Sep 2024 - Present",
+    date: "Sep 2024 - Apr 2025",
     icon: "school",
     description:
       "Attending Weekly TWU ICPC Meetings to practice problem-solving and coding for the ICPC coordinated by Andrew Park and Samuel Leung",
