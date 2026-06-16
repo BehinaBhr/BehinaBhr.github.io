@@ -2,7 +2,7 @@ import "./Resume.scss";
 import resemeIcon from "../../assets/images/resume.svg";
 
 function Resume() {
-  const url = "https://drive.google.com/file/d/117jxPfHQ3WohnuhKKF0tjPeacG1er836/view?usp=sharing";
+  const url = "https://docs.google.com/document/d/1YCt3pg2MsXykSKGu6CJO3Ra1GoOe6NQMF69z27PMIZM/edit?usp=sharing";
   return (
     <a href={url} target="_blank" rel="noopener noreferrer">
       <button className="resume">
