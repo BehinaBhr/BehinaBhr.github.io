@@ -6,14 +6,8 @@ let TimelineElements = [
     locationLink: "https://www.zebrarobotics.com/",
     date: "Sep 2025 - Present",
     icon: "work",
-    description: [
-      "Lead structured after-school STEM, robotics, coding, and activity-based learning programs for children and youth ages 4-15.",
-      "Design hands-on projects that strengthen students' problem-solving, teamwork, creativity, confidence, and logical thinking.",
-      "Adapt instruction, communication, and pacing to support diverse learning needs, inclusive participation, and social-emotional development.",
-      "Supervise students and junior volunteers using clear expectations, calm redirection, positive behaviour support, and conflict-resolution strategies.",
-      "Coordinate daily program logistics, including material preparation, shared equipment care, attendance tracking, classroom organization, and family/staff communication.",
-      "Maintain a safe, inclusive, clean, and well-organized learning environment where students can explore STEM through active, age-appropriate projects.",
-    ],
+    description:
+      "Lead structured after-school STEM, robotics, coding, and activity-based learning programs for children and youth ages 4-15. Design hands-on projects that strengthen students' problem-solving, teamwork, creativity, confidence, and logical thinking while adapting instruction, communication, and pacing to support diverse learning needs, inclusive participation, and social-emotional development. Supervise students and junior volunteers using clear expectations, calm redirection, positive behaviour support, and conflict-resolution strategies, while coordinating daily program logistics, material preparation, shared equipment care, attendance tracking, classroom organization, and family/staff communication to maintain a safe, inclusive, clean, and well-organized learning environment.",
   },
   {
     id: 1,
