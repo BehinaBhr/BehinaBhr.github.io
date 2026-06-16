@@ -40,7 +40,16 @@ const Timeline = () => {
                 </a>
               )}
               {!isWorkIcon && <h5 className="vertical-timeline-element-location">{element.location}</h5>}
-              {element.description && <p className="vertical-timeline-element-description">{element.description}</p>}
+              {Array.isArray(element.description) && (
+                <ul className="vertical-timeline-element-description vertical-timeline-element-description__list">
+                  {element.description.map((descriptionItem) => (
+                    <li key={descriptionItem}>{descriptionItem}</li>
+                  ))}
+                </ul>
+              )}
+              {element.description && !Array.isArray(element.description) && (
+                <p className="vertical-timeline-element-description">{element.description}</p>
+              )}
               {showButton && (
                 <a className={buttonClass} href={element.buttonLink} target="_blank" rel="noopener noreferrer">
                   <span>{element.buttonText}</span>
