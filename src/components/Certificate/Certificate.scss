@@ -38,9 +38,26 @@
     display: flex;
     justify-content: center;
     width: 85%;
-    margin-bottom: $large-space-between;
     @include tablet {
       align-self: center;
+    }
+  }
+
+  &__linkedin {
+    @include labels-links-button;
+    align-self: center;
+    cursor: pointer;
+    padding: $tiny-space-between $small-space-between;
+    border: 1px solid $fade-black;
+    border-radius: $oval-border-radius;
+    background-color: $cream;
+    color: $black;
+    box-shadow: 5px 5px $gray;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+
+    &:hover {
+      box-shadow: 3px 3px $gray;
+      transform: translateY(4px);
     }
   }
 }
