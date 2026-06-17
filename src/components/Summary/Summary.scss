@@ -49,6 +49,10 @@
     }
     &-extra {
       @include body-large;
+      text-align: center;
+      @include tablet {
+        text-align: left;
+      }
       &-bold {
         font-weight: bold;
       }

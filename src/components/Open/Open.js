@@ -6,11 +6,15 @@ const Open = () => {
     <div className="open">
       <div className="open__title">🤝🏼 Open to work</div>
       <p className="open__content">
-        A well-rounded background, driven by a passion for continuous learning and a drive to tackle new challenges,
-        positions me as a highly motivated developer eager to contribute to user-centered software solutions. I'm open
-        to opportunities in <span className="open__content--bold">British Columbia, Canada 🇨🇦 </span> or
-        <span className="open__content--bold"> Remotely 🌎</span>. I'm eager to discuss how my qualifications can
-        contribute to your project's success.<br />
+        A well-rounded background, strengthened by continuous learning and a willingness to take on new challenges,
+        positions me as a highly motivated contributor across Educational Technology, Youth STEM, Learning Inclusion
+        Support, Robotics/Coding Instruction, Software/Digital Systems Support, Community Program Support,
+        Administrative Coordination, and Customer Service Operations.
+        <br />
+        I'm open to opportunities in British Columbia, Canada 🇨🇦 or remote 🌎 roles where I can contribute through a mix
+        of technology, education, community support, and operations. I would be happy to discuss how my qualifications
+        and cross-disciplinary experience can support your team's success.
+        <br />
         <Link className="open__content-button" to="/contact">
           <button> Let's connect!</button>
         </Link>

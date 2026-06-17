@@ -14,9 +14,10 @@ const Home = () => {
       <section className="home__section">
         <h2 className="home__section-title">🔦 Spotlight</h2>
         <div className="home__section-content home__section-content--spotlight">
-          A diligent and quick lifelong learner, skilled in creating user-centric web applications, dedicated to
-          problem-solving and helping others through innovative solutions by leveraging a unique transferable skill set
-          honed through a well-rounded career journey.
+          A diligent and quick lifelong learner with a background in Software Engineering, Psychology, Youth STEM
+          Education, and Community Support, skilled in creating people-centred digital solutions, supporting inclusive
+          learning experiences, and solving practical problems by leveraging a unique transferable skill set honed across
+          a well-rounded career journey.
           <Link className="home__section-content-button" to="/about">
             <button>More About Me</button>
           </Link>
@@ -26,15 +27,13 @@ const Home = () => {
       <section className="home__section">
         <h2 className="home__section-title">💁🏻‍♀️ Expertise</h2>
         <div className="home__section-content home__section-content--expertise">
-          My technical expertise in <span className="home__section-content--bold">JavaScript</span>,{" "}
-          <span className="home__section-content--bold">React</span>,{" "}
-          <span className="home__section-content--bold">Node.js</span>,{" "}
-          <span className="home__section-content--bold">Python</span>,{" "}
-          <span className="home__section-content--bold">SQL</span> and{" "}
-          <span className="home__section-content--bold">UX/UI design</span> is complemented by my collaboration with
-          diverse teams on extensive group projects and hackathons during BrainStation's 12-week SWE Bootcamp, as well
-          as ongoing online learning that is further enriched through my academic studies as a part-time Computer
-          Science student at TWU, has equipped me to be a valuable asset in any professional setting.
+          My interdisciplinary expertise in psychology-informed problem-solving, programming fundamentals, and
+          user-centred digital support is complemented by hands-on experience across diverse service-focused roles,
+          including freelance web development and design, Youth STEM education, community program support, customer
+          service, and administrative coordination. Through ongoing learning and academic studies, I have developed a
+          well-rounded ability to communicate clearly with people across different ages and technical backgrounds,
+          support inclusive learning environments, and contribute effectively in fast-paced teams, equipping me to be a
+          valuable asset in a wide range of professional settings.
         </div>
         <Cards />
       </section>

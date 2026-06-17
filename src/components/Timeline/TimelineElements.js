@@ -90,11 +90,11 @@ let TimelineElements = [
   },
   {
     id: 9,
-    title: "Co-op Robotic Rescue Team",
-    location: "Associated with Farzanegan 1 Highschool",
+    title: "Student Member, Robotics & Programming Team",
+    location: "Farzanegan 1 High School Robotics Team",
     locationLink: "http://iranopenrobocup.ir/leagues/junior-rescue-maze-secondary",
     description:
-      "Led a team in integrating robotics and programming C++ expertise to develop simulators and create intelligent robots for navigating intricate mazes and avoiding obstacles. Won 1st Place and 3rd Place in the Junior Robotic Competitions.",
+      "Participated in a student robotics and programming team focused on search-and-rescue challenges, contributing to robot design, basic C++ programming, testing, maze navigation, obstacle avoidance, and competition preparation. This early experience built my foundation in robotics, teamwork, logical thinking, and technical problem-solving. The team earned 1st Place in the Junior Rescue League and 3rd Place in the Iran Open RoboCup Rescue League, 2014.",
     date: "Sep 2013 - Dec 2014",
     icon: "work",
   },
